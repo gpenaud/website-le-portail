@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #ffffbb;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;
+    overflow:hidden;
+/*	line-heigth: inherit !important;*/
+}
+#page {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 640px;
+    height: 640px;
+}
+#homeblock {
+    height: 640px;
+    margin: 0 auto;
+    position: relative;
+    /*width: 1024px;*/
+}
+
+#preload {
+    opacity: 0;
+    position: absolute;
+    width: 1px;
+}
+#imagew {
+    float: left;
+    height: 640px;
+    margin: auto;
+    width: 640px;
+	position:relative;
+}
+#image {
+    background-color: #ffffbb;
+    border-radius: 320px;
+    overflow: hidden;
+    position: absolute;
+}
+#accueil {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 2275px 2275px;
+    border-radius: 320px;
+    cursor: pointer;
+    height: 640px;
+    width: 640px;
+}
+
+#txtportail {
+	position: absolute;
+	z-index: 100;
+	width: 640px;
+	height: 640px;
+	margin: auto;
+	top: -1px;
+	left: -2px;
+}
+
+#accueil1 {
+    transform: matrix(1, 0, 0, 1, -818, -818);
+    -ms-transform: matrix(1, 0, 0, 1, -818, -818);
+    -webkit-transform: matrix(1, 0, 0, 1, -818, -818);
+	
+}
+.titre {
+    display: block;
+    height: 86px;
+    position: absolute;
+    width: 173px;
+}
+.titre img {
+}
+.titre:hover {
+}
+#a {
+    transform: matrix(1, 0, 0, 1, 238, 12);
+    -ms-transform: matrix(1, 0, 0, 1, 238, 12);
+    -webkit-transform: matrix(1, 0, 0, 1, 238, 12);
+}
+#e {
+    transform: matrix(0.309017, 0.951057, -0.951057, 0.309017, 486.352, 199.045);
+    -ms-transform: matrix(0.309017, 0.951057, -0.951057, 0.309017, 486.352, 199.045);
+	-webkit-transform:  matrix(0.309017, 0.951057, -0.951057, 0.309017, 486.352, 199.045);
+}
+#p {
+    transform: matrix(-0.809017, 0.587785, -0.587785, -0.809017, 385.061, 494.16);
+    -ms-transform: matrix(-0.809017, 0.587785, -0.587785, -0.809017, 385.061, 494.16);
+    -webkit-transform: matrix(-0.809017, 0.587785, -0.587785, -0.809017, 385.061, 494.16);
+}
+#v {
+    transform: matrix(-0.809017, -0.587785, 0.587785, -0.809017, 73.385, 487.93);
+    -ms-transform: matrix(-0.809017, -0.587785, 0.587785, -0.809017, 73.385, 487.93);
+    -webkit-transform: matrix(-0.809017, -0.587785, 0.587785, -0.809017, 73.385, 487.93);
+}
+#s {
+    transform: matrix(0.309017, -0.951056, 0.951056, 0.309017, -19.071, 190.013);
+    -ms-transform: matrix(0.309017, -0.951056, 0.951056, 0.309017, -19.071, 190.013);
+    -webkit-transform: matrix(0.309017, -0.951056, 0.951056, 0.309017, -19.071, 190.013);
+}
+#zoom {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 640px auto;
+    border-radius: 320px;
+    display: none;
+    height: 640px;
+    position: absolute;
+    width: 640px;
+}
+#retour {
+    border: 0 none;
+    display: block;
+    font-family: myfont;
+    font-size: large;
+    font-style: oblique;
+    font-weight: bold;
+    height: 105px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 530px;
+    vertical-align: middle;
+    width: 640px;
+}
+#retour link {
+    color: orchid;
+}
+.liens {
+    display: none;
+    height: 179px;
+    position: absolute;
+    top: 350px;
+    width: 640px;
+}
+.liens a {
+    font-family: myfont;
+    font-style: oblique;
+    font-weight: bold;
+    text-shadow: 2px 2px #555;
+    display:inline-block;
+    line-height:normal;
+}
+.liens a:hover {
+    font-style: normal;
+}
+
+.liens a p, .liens>p{
+	height: 140px;
+	line-height: 140px;
+}
+
+.liens a p span{
+	line-height: normal;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.liens > p > span {
+    line-height: 70px;
+    height: 70px;
+    display: block;
+}
+
+/*28/04/2015 : corrections suite aux remarques de Marlène*/
+#liens_p a,#liens_v a{
+    text-shadow: 1px 1px #555;	
+}
+
+#liens_a a:link, #liens_a a:visited {
+    color: lime;
+}
+#liens_e a:link, #liens_e a:visited  {
+    color: yellow;
+}
+#liens_p a:link, #liens_p a:visited  {
+    color: darkblue;
+}
+#liens_v a:link, #liens_v a:visited  {
+    color: orchid;
+}
+#liens_s a:link, #liens_s a:visited  {
+    color: palegoldenrod;
+}
+
+
+@font-face {
+    font-family: "myfont";
+    src: url("fonts/purisa.ttf");
+}
+@font-face {
+    font-family: "myfont";
+    font-style: oblique;
+    src: url("fonts/purisao.ttf");
+}
+@font-face {
+    font-family: "myfont";
+    font-style: oblique;
+    font-weight: bold;
+    src: url("fonts/purisabo.ttf");
+}
+@font-face {
+    font-family: "myfont";
+    font-weight: bold;
+    src: url("fonts/purisab.ttf");
+}
+.porte1, .porte2, .porte3 {
+    display: block;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.porte1 {
+    float: left;
+    height: 134px;
+    margin: 39px 0 0 100px;
+    transform: rotate(-12deg);
+    width: 110px;
+}
+.porte2 {
+    height: 138px;
+    margin: 19px 0 0 41px;
+    transform: rotate(-3deg);
+    width: 113px;
+}
+.porte3 {
+    float: left;
+    height: 141px;
+    margin: 33px 0 0 51px;
+    transform: rotate(10deg);
+    width: 106px;
+}

@@ -1,0 +1,32 @@
+Dotslick version 20190709
+================================================================================
+* Added publicRest method galleryImage (relying on dotAjax) 
+* Added public templateInsideBlock callback to change contents displayed on EntryIfContentCut tags
+* Fixed minor bug in cke-addons/content.css (widget overflow issue)
+
+Dotslick version 20190708
+================================================================================
+* solved some js issues with widget image
+* added a unique id to desc (id="ARFDFSFQ" option) for later use
+* finished admin page
+* updated translations
+
+Dotslick version 20190702
+================================================================================
+* Added admin page
+* Solved many CKE widget issues, works fine now!
+* Remove widget when popup is closed without providing information
+
+Dotslick version 20190701
+================================================================================
+* ckewidget: split widget inclusion from dotslick in a separate plugin ->dcCKEWidget
+* managed dependencies between dotSlick and dcCKEWidget
+* javascript bugs correction
+* added gettext translations in javascript (through php in inc/dotslick.js.php)
+* corrected minor bugs in widget initialization : when switching to source mode, 
+* the widget is destroyed, but the data "desc" object was not. => destroy event 
+* handler in widget definition.
+
+Dotslick version 20190626
+================================================================================
+* First prodution version

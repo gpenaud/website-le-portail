@@ -1,0 +1,129 @@
+/*Mots clés*/
+
+#sidebar ul { margin: 0; padding: 10px; }
+
+.tags li {
+  display: inline;
+  font-size: x-small;
+}
+
+.post-tags li {
+	list-style: none !important;
+	float:right;
+	padding-left: 17px;
+}
+
+.post-tags li:before {
+		color: darkgoldenrod;
+		content:"\1F511\2006";
+}
+
+.post-tags {
+	 clear:both;
+	 display: inline-block;
+	 margin: 0;
+	 width: 100%;
+	 padding: 0;
+ }
+
+ul.post-tags a {
+  padding-left:3px;
+}
+
+
+.tags p {
+  text-align:center;
+  font-size: small;
+}
+
+#sidebar .tags ul{
+	background-color: inherit;
+	/*! opacity:0.9; */
+}
+
+#sidebar .tags li:not(:last-child):after, .dc-tags ul.tags li:not(:last-child):after{
+	content: " \25AB  ";
+        font-family: "Symbola";
+}
+
+.dc-tags ul.tags{
+	background-color: inherit;
+}
+
+.tag0 { 
+	font-size: 75%;
+	color:lightblue;
+ }
+.tag10 { 
+	font-size: 80%; 
+	color: lightcoral;
+}
+
+.tag20 { 
+	font-size: 85%; 
+	color: orchid;	
+}
+
+.tag30 { 
+	font-size: 90%; 
+	color: darkgreen;
+}
+.tag40 { 
+	font-size: 100%; 
+	color:darksalmon;
+}
+.tag50 { 
+	font-size: 110%;  
+	color:darkslategrey;
+}
+.tag60 { 
+	font-size: 120%; 
+	color:darkorchid; 
+}
+.tag70 { 
+	font-size: 130%;  
+	color:darkmagenta;
+}
+.tag80 { 
+	font-size: 140%;  
+	color:darkseagreen;
+}
+.tag90 { 
+	font-size: 150%; 
+	color:darkblue; 
+}
+.tag100 {
+	font-size: 160%; 
+	color:cornflowerblue; 
+}
+
+.dc-tag #content-info h2, .dc-tags #content-info h2{
+	text-indent:5px;
+}
+
+.dc-tag #content-info h2:before, .dc-tags #content-info h2:before {
+        font-family:"Symbola";
+	content:"\1F511\2002";
+	color: darkgoldenrod;
+}
+
+@media only screen and (max-width: 768px) {
+	.widget.tags {
+		
+	flex-grow: 3;
+	}
+	
+	.post-tags {
+		font-size:smaller;
+		display:flex;
+		justify-content: flex-end;
+		flex-wrap: wrap;
+	}
+	.post-tags>li{
+		width:30%;
+		overflow-x: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+}
+	

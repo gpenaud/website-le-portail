@@ -1,0 +1,16 @@
+<!--top.html-->
+<div id="top" role="banner">
+  <img id="logo" src="/gam/themes/gam/img/logo.png" />
+  <span id="hamburger">&nbsp;</span>
+  <tpl:Block name="main-breadcrumb">
+  	<!--Dans _top.html-->
+	{{tpl:Breadcrumb}}
+  </tpl:Block>
+
+  <!-- # --BEHAVIOR-- publicTopAfterContent -->
+  {{tpl:SysBehavior behavior="publicTopAfterContent"}}
+</div>
+
+<div id="nav">
+	{{tpl:MenuPortail}}
+</div>

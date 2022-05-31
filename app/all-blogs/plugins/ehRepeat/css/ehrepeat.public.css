@@ -1,0 +1,46 @@
+#events-popup {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index: 1000;
+    background-color:#ffb;
+	color:#333333;
+	margin:0;
+	padding:0;
+	line-height: 1.2em;
+	border-radius: 10px;
+	border:1px solid green;
+	overflow: hidden;
+	/*! display: none; */
+}
+
+#events-popup>ul{
+	margin:0px;
+	padding:0px;
+	list-style-type: none;
+  list-style-image: url('/gam/themes/gam/img/grain.png');
+  list-style-position: inside;
+}
+
+#events-popup>ul>li{
+	padding:2px;
+}
+
+#events-popup>ul>li:hover{
+	color:#ffb;
+	background-color: #333333;
+}
+
+.event-slaves li li{
+	list-style-image: none !important;
+	list-style-type: none;
+}
+
+.event-info ul {
+	height:8em;
+	overflow: auto;
+}
+
+.event-info ul li {
+	line-height: 0.8em;	
+}

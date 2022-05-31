@@ -1,0 +1,69 @@
+ 
+#ehrepeat>input ~ fieldset {
+	display: none;
+}
+
+#ehrepeat>input:checked ~ fieldset {
+	display: block;
+}
+
+#ehrepeatmodal {
+	position:fixed;
+	z-index: 10000;
+	background-color:#000000ee;
+	width:100vw;
+	height:100vh;
+	top:0px;
+	left:0px;
+	vertical-align: middle;
+	text-align:center;
+	display:none;
+	line-height: 100vh;
+
+}
+
+#ehrepeatmodal>div {
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+#ehrepeatmodal select {
+	width:unset;
+}
+
+#ehrepeatmodal label {
+	display:inline-block;
+}
+
+#ehrepeatmodal fieldset {
+	display:block;
+	margin: auto auto;
+	position: relative;
+	line-height: initial;
+}
+#ehrepeatmodal fieldset >* {
+	margin:7px;
+}
+
+#ehrepeat fieldset{
+	
+}
+
+#ehrepeat fieldset:hover{
+	cursor:pointer;
+	background-color:#0782C1;
+	color:blanchedalmond;
+}
+#rpt_dates {	
+	max-height: 7em;
+	overflow: auto;
+	padding: 0;
+	list-style: inside;
+	list-style-type: circle;
+}
+
+#ehrepeat #rpt_freq_desc{
+  text-align:center;	
+}

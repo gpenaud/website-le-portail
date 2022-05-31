@@ -1,0 +1,21 @@
+/*Fil d'Ariane*/
+#breadcrumb a {
+    text-decoration: none;
+    color: #ffb;
+    font-weight: bold;
+}
+
+#breadcrumb a:hover {
+    color:#bb7;
+}
+
+#breadcrumb {
+  font-style: oblique;
+  color: #ffb;
+  font-family: Arial, Helvetica, "Trebuchet MS", sans-serif;
+  font-size: larger;
+  padding-left: 9vw;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}

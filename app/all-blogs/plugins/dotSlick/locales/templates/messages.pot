@@ -1,0 +1,399 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-08 23:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ../../_install.php:22 ../../_admin.php:19
+msgid ""
+"dotSlick requires dcCKEWidget plugin to operate. Please install and enable "
+"it first"
+msgstr ""
+
+#: ../../_install.php:30
+msgid "Enable dotSlick plugin"
+msgstr ""
+
+#: ../../_install.php:31
+msgid "Extra post types which use dotslick"
+msgstr ""
+
+#: ../../_install.php:32
+msgid "Autoplay galleries"
+msgstr ""
+
+#: ../../_install.php:33
+msgid "Loop galleries infinitely"
+msgstr ""
+
+#: ../../_install.php:34
+msgid "Pause slideshow when cursor is over"
+msgstr ""
+
+#: ../../_install.php:35
+msgid "Gallery autoplay slide changing delay"
+msgstr ""
+
+#: ../../_install.php:36 ../../popup.php:231 ../../tpl/admin.tpl:66
+msgid "Enable mousewheel navigation"
+msgstr ""
+
+#: ../../_install.php:38
+msgid "Make gallery pictures clickable"
+msgstr ""
+
+#: ../../_install.php:39
+msgid "Display navigation dots"
+msgstr ""
+
+#: ../../_install.php:40
+msgid "Display navigation arrows"
+msgstr ""
+
+#: ../../_install.php:41
+msgid "Gallery height in pixels"
+msgstr ""
+
+#: ../../inc/class.dsgalleries.php:99
+#, php-format
+msgid "problem with gallery %d regeneration."
+msgstr ""
+
+#: ../../inc/dotslick.js.php:28
+msgid "unclickable images"
+msgstr ""
+
+#: ../../inc/dotslick.js.php:28
+msgid "link images"
+msgstr ""
+
+#: ../../inc/dotslick.js.php:29
+msgid "slideshow speed"
+msgstr ""
+
+#: ../../inc/dotslick.js.php:30
+msgid "manual play"
+msgstr ""
+
+#: ../../inc/dotslick.js.php:30
+msgid "autoplay"
+msgstr ""
+
+#: ../../inc/dotslick.js.php:31
+msgid "don't pause slideshow"
+msgstr ""
+
+#: ../../inc/dotslick.js.php:31
+msgid "pause slideshow when over"
+msgstr ""
+
+#: ../../inc/dotslick.js.php:32
+msgid "loop once"
+msgstr ""
+
+#: ../../inc/dotslick.js.php:32
+msgid "infinite loop"
+msgstr ""
+
+#: ../../inc/dotslick.js.php:33
+msgid "hide dots"
+msgstr ""
+
+#: ../../inc/dotslick.js.php:33
+msgid "show dots"
+msgstr ""
+
+#: ../../inc/dotslick.js.php:34
+msgid "hide arrows"
+msgstr ""
+
+#: ../../inc/dotslick.js.php:34
+msgid "show arrows"
+msgstr ""
+
+#: ../../inc/dotslick.js.php:35
+msgid "images height"
+msgstr ""
+
+#: ../../inc/dotslick.js.php:36
+msgid "disable mousewheel animation"
+msgstr ""
+
+#: ../../inc/dotslick.js.php:36
+msgid "enable mousewheel animation"
+msgstr ""
+
+#: ../../inc/dotslick.js.php:37
+msgid "no pictures. Bug!"
+msgstr ""
+
+#: ../../inc/dotslick.js.php:38
+msgid "Insert a gallery"
+msgstr ""
+
+#: ../../inc/dotslick.js.php:39
+msgid "Options :"
+msgstr ""
+
+#: ../../inc/dotslick.js.php:40
+msgid "Doubleclick to change the gallery images and settings"
+msgstr ""
+
+#: ../../inc/class.dsmedia.php:139
+msgid "Parent folder"
+msgstr ""
+
+#: ../../_define.php:17
+msgid "Insert slick galleries in your posts"
+msgstr ""
+
+#: ../../admin.php:34
+msgid "Galleries options successfully saved"
+msgstr ""
+
+#: ../../admin.php:58
+msgid "Plugin settings successfully saved"
+msgstr ""
+
+#: ../../admin.php:79
+#, php-format
+msgid "%d gallery has been regenerated"
+msgid_plural "%d galleries have been regenerated"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../admin.php:82
+#, php-format
+msgid "%d gallery was not regenerated"
+msgid_plural "%d galleries were not regenerated"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../popup.php:25
+msgid "Insert & close"
+msgstr ""
+
+#: ../../popup.php:75
+msgid "Update & close"
+msgstr ""
+
+#: ../../popup.php:90
+#, php-format
+msgid ""
+"Error loading gallery description, reverting to default values<br><code>%s</"
+"code>"
+msgstr ""
+
+#: ../../popup.php:102
+msgid "Default options successfully saved"
+msgstr ""
+
+#: ../../popup.php:108
+msgid ""
+"Composing a gallery has never been so simple.<br/>First, browse the media "
+"library, pick folders and/or single pictures and drag them in the Gallery "
+"frame.<br>You can reorder or delete the items in the Gallery view using "
+"drag'n'drop.<br>You can customize the gallery with a bunch of options.<br>If "
+"the default options don't suit your needs, you can click \"Save defaults\" "
+"to memorize your favorite options.<br>Once done, click \"Save and close\" to "
+"go back to the post editor."
+msgstr ""
+
+#: ../../popup.php:144
+msgid "Insert dotSlick gallery"
+msgstr ""
+
+#: ../../popup.php:157
+msgid "Number of images in folder & subfolders"
+msgstr ""
+
+#: ../../popup.php:158
+msgid "Number of images in folder"
+msgstr ""
+
+#: ../../popup.php:160
+#, php-format
+msgid "contains %d pictures"
+msgstr ""
+
+#: ../../popup.php:161
+msgid "contains 1 picture"
+msgstr ""
+
+#: ../../popup.php:164
+msgid "Media Library"
+msgstr ""
+
+#: ../../popup.php:166
+msgid "Media Gallery"
+msgstr ""
+
+#: ../../popup.php:168
+msgid "Drag images and image folders<br/>You may reorder them"
+msgstr ""
+
+#: ../../popup.php:182 ../../tpl/admin.tpl:21
+msgid "Autoplay settings"
+msgstr ""
+
+#: ../../popup.php:183 ../../tpl/admin.tpl:22
+msgid "Autoplay"
+msgstr ""
+
+#: ../../popup.php:186 ../../popup.php:195 ../../popup.php:201
+#: ../../popup.php:215 ../../popup.php:221 ../../popup.php:227
+#: ../../popup.php:233 ../../tpl/admin.tpl:24 ../../tpl/admin.tpl:33
+#: ../../tpl/admin.tpl:39 ../../tpl/admin.tpl:50 ../../tpl/admin.tpl:56
+#: ../../tpl/admin.tpl:62 ../../tpl/admin.tpl:68 ../../tpl/admin.tpl:105
+msgid "No"
+msgstr ""
+
+#: ../../popup.php:187 ../../popup.php:196 ../../popup.php:202
+#: ../../popup.php:216 ../../popup.php:222 ../../popup.php:228
+#: ../../popup.php:234 ../../tpl/admin.tpl:25 ../../tpl/admin.tpl:34
+#: ../../tpl/admin.tpl:40 ../../tpl/admin.tpl:51 ../../tpl/admin.tpl:57
+#: ../../tpl/admin.tpl:63 ../../tpl/admin.tpl:69 ../../tpl/admin.tpl:106
+msgid "Yes"
+msgstr ""
+
+#: ../../popup.php:190 ../../tpl/admin.tpl:28
+msgid "Autoplay speed (in ms)"
+msgstr ""
+
+#: ../../popup.php:191 ../../tpl/admin.tpl:29
+msgid "Set the slideshow speed in milliseconds"
+msgstr ""
+
+#: ../../popup.php:193 ../../tpl/admin.tpl:31
+msgid "Infinite loop"
+msgstr ""
+
+#: ../../popup.php:199 ../../tpl/admin.tpl:37
+msgid "Pause when over"
+msgstr ""
+
+#: ../../popup.php:209 ../../tpl/admin.tpl:47
+msgid "Other settings"
+msgstr ""
+
+#: ../../popup.php:210
+msgid "Required field"
+msgstr ""
+
+#: ../../popup.php:210
+msgid "Gallery title"
+msgstr ""
+
+#: ../../popup.php:213 ../../tpl/admin.tpl:48
+msgid "Link image to original"
+msgstr ""
+
+#: ../../popup.php:219 ../../tpl/admin.tpl:54
+msgid "Display dots"
+msgstr ""
+
+#: ../../popup.php:225 ../../tpl/admin.tpl:60
+msgid "Display arrows"
+msgstr ""
+
+#: ../../popup.php:237 ../../tpl/admin.tpl:72
+msgid "Slides height (in px)"
+msgstr ""
+
+#: ../../popup.php:238 ../../tpl/admin.tpl:73
+msgid "Set slides height in pixels"
+msgstr ""
+
+#: ../../popup.php:247
+msgid "Reset all values"
+msgstr ""
+
+#: ../../popup.php:248
+msgid "Save defaults"
+msgstr ""
+
+#: ../../_services.php:24 ../../_services.php:53 ../../_services.php:71
+msgid "Description string missing"
+msgstr ""
+
+#: ../../_services.php:87
+#, php-format
+msgid "%d picture"
+msgid_plural "%d pictures"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../../_admin.php:111
+msgid "dotSlick Gallery successfully generated"
+msgstr ""
+
+#: ../../_admin.php:115
+#, php-format
+msgid "dotSlick Gallery compilation error with string «%s»<br/>%s"
+msgstr ""
+
+#: ../../tpl/admin.tpl:12
+msgid "dotSlick admin page"
+msgstr ""
+
+#: ../../tpl/admin.tpl:16
+msgid "Galleries settings"
+msgstr ""
+
+#: ../../tpl/admin.tpl:80 ../../tpl/admin.tpl:117
+msgid "Save"
+msgstr ""
+
+#: ../../tpl/admin.tpl:83
+msgid "Galleries"
+msgstr ""
+
+#: ../../tpl/admin.tpl:91
+msgid "# of galleries in this post"
+msgstr ""
+
+#: ../../tpl/admin.tpl:92
+msgid "Edit"
+msgstr ""
+
+#: ../../tpl/admin.tpl:93
+msgid "View"
+msgstr ""
+
+#: ../../tpl/admin.tpl:98
+msgid "regenerate all"
+msgstr ""
+
+#: ../../tpl/admin.tpl:98
+msgid "regenerate selected"
+msgstr ""
+
+#: ../../tpl/admin.tpl:100
+msgid "Plugin settings"
+msgstr ""
+
+#: ../../tpl/admin.tpl:103
+msgid "Enable dotSlick galleries on your posts"
+msgstr ""
+
+#: ../../tpl/admin.tpl:109
+msgid "Post types which use dotslick"
+msgstr ""
+
+#: ../../tpl/admin.tpl:120
+msgid "Debug"
+msgstr ""

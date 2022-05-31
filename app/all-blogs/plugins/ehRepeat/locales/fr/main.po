@@ -1,0 +1,357 @@
+# EhRepeat for Dotclear 2.
+# Copyright (C) 2019 Nurbo Teva
+# This file is distributed under the same license as EhRepeat.
+# FIRST AUTHOR <Nurbo Teva>, 2015.
+# Nurbo Teva <dev@taktile.fr>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: v 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-30 18:32+0200\n"
+"PO-Revision-Date: 2019-07-30 18:33+0200\n"
+"Last-Translator: Nurbo Teva <dev@taktile.fr>\n"
+"Language-Team: français <>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Gtranslator 2.91.7\n"
+
+#: ../../_admin.php:18 ../../_admin.php:21 ../../_admin.php:27
+#: ../../_admin.php:30 ../../index.php:52 ../../index.php:58
+msgid "Repetitive events"
+msgstr "Événements répétitifs"
+
+#: ../../_admin.php:20
+msgid ""
+"EhRepeat requires dcCKEWidget plugin to operate. Please install and enable "
+"it first"
+msgstr ""
+"EhRepeat nécessite le plugin dcCKEWidget pour fonctionner. Merci de "
+"l'installer et de l'activer"
+
+#: ../../_admin.php:63 ../../_admin.php:77
+msgid "Click to edit the repetition pattern"
+msgstr "Cliquez pour éditer le motif de répétition"
+
+#: ../../_admin.php:255 ../../_public.php:173
+msgid "%a %e %B"
+msgstr "%a %e %B"
+
+#: ../../_admin.php:258 ../../_public.php:176 ../../_public.php:177
+#: ../../_public.php:178
+msgid " at %H:%M"
+msgstr " à %Hh%M"
+
+#: ../../_admin.php:271 ../../_public.php:190 ../../_public.php:191
+#: ../../_public.php:192
+msgid "Next events"
+msgstr "Prochains événements"
+
+#: ../../_admin.php:275 ../../_public.php:196 ../../_public.php:197
+#: ../../_public.php:198
+msgid "No scheduled events"
+msgstr "Aucun événement prévu"
+
+#: ../../_admin.php:334
+#, php-format
+msgid "problem with event list %d regeneration."
+msgstr "problème avec la régénération de la liste d'événement %d"
+
+#: ../../_admin.php:338
+#, php-format
+msgid "Updated %d post's eventlist"
+msgid_plural "Updated %d posts' eventlists"
+msgstr[0] "Mise à jour de l'agenda d'un billet"
+msgstr[1] "Mise à jour des agendas de %d billets"
+
+#: ../../_define.php:19
+msgid "Manage events repetitive events on your blog"
+msgstr "Gérez des événements répétitifs sur votre blog"
+
+#: ../../_install.php:28
+#, php-format
+msgid ""
+"Eh Repeat requires eventHandler V%s minimum, V%s installed. Please update"
+msgstr ""
+"Eh Repeat nécessite eventHandler V%s au minimum, V%s installée. Merci de "
+"mettre à jour"
+
+#: ../../_install.php:57
+msgid "Eh Repeat requires eventHandler"
+msgstr "Eh Repeat nécessite eventHandler"
+
+#: ../../_install.php:62
+msgid "Months number for automatic events generation"
+msgstr "Nombre de mois pour la génération automatique d'événements"
+
+#: ../../_install.php:63
+msgid "Week starts on sunday"
+msgstr "La semaine commence le dimanche"
+
+#: ../../_install.php:64
+msgid "Replace event end date by event duration"
+msgstr "Remplace la date de fin d'un événement par sa durée"
+
+#: ../../_install.php:65
+msgid "Minutes accuracy"
+msgstr "Précision des minutes"
+
+#: ../../_install.php:66
+msgid "Date for last update"
+msgstr "Date de dernière mise à jour"
+
+#: ../../_public.php:174 ../../_public.php:175
+msgid "%A %e %B"
+msgstr "%a %e %B"
+
+#: ../../_public.php:264 ../../_public.php:268 ../../_public.php:349
+#: ../../_public.php:353 ../../_public.php:371 ../../_public.php:375
+msgid "Home"
+msgstr "Accueil"
+
+#: ../../_public.php:348
+msgid "February"
+msgstr "février"
+
+#: ../../_public.php:348
+msgid "January"
+msgstr "janvier"
+
+#: ../../_public.php:348
+msgid "March"
+msgstr "mars"
+
+#: ../../_public.php:349
+msgid "April"
+msgstr "avril"
+
+#: ../../_public.php:349
+msgid "August"
+msgstr "août"
+
+#: ../../_public.php:349
+msgid "July"
+msgstr "juillet"
+
+#: ../../_public.php:349
+msgid "June"
+msgstr "juin"
+
+#: ../../_public.php:349
+msgid "May"
+msgstr "mai"
+
+#: ../../_public.php:350
+msgid "December"
+msgstr "décembre"
+
+#: ../../_public.php:350
+msgid "November"
+msgstr "novembre"
+
+#: ../../_public.php:350
+msgid "October"
+msgstr "octobre"
+
+#: ../../_public.php:350
+msgid "September"
+msgstr "septembre"
+
+#: ../../_public.php:351
+#, php-format
+msgid " in %s %4d"
+msgstr " en %s %4d"
+
+#: ../../_services.php:25 ../../_services.php:43 ../../_services.php:44
+#: ../../_services.php:91 ../../_services.php:95
+msgid "Frequency string missing"
+msgstr "Chaîne de fréquence manquante"
+
+#: ../../_services.php:45 ../../_services.php:46 ../../_services.php:93
+#: ../../_services.php:97
+msgid "Date is missing"
+msgstr "Date manquante"
+
+#: ../../_services.php:67 ../../_services.php:74
+msgid "No dates found for this request."
+msgstr "Aucune date trouvée pour cette requête"
+
+#: ../../inc/class.dcehrepeat.php:72
+msgid "All repetitive events have been generated."
+msgstr "Tous les événements répétitifs ont été générés"
+
+#: ../../inc/class.dcehrepeat.php:122 ../../inc/class.dcehrepeat.php:131
+#: ../../inc/class.dcehrepeat.php:150 ../../inc/class.dcehrepeat.php:159
+#, php-format
+msgid "«%s» is not a regular frequency string (for %d)"
+msgstr "«%s» n'est pas une chaîne de fréquence valide (pour %d)"
+
+#: ../../inc/class.dcehrepeat.php:124 ../../inc/class.dcehrepeat.php:133
+#: ../../inc/class.dcehrepeat.php:152 ../../inc/class.dcehrepeat.php:161
+#, php-format
+msgid "The start date of the event %s doesn't match the frequency string «%s»."
+msgstr ""
+"La date de début de l'événement %s ne correspond pas à la fréquence «%s»."
+
+#: ../../inc/class.ehdate.php:107 ../../inc/class.ehdate.php:118
+#, php-format
+msgid "Invalid type for %s, integer expected, %s given."
+msgstr "Type invalide pour %s, entier attendu, %s donné."
+
+#: ../../inc/class.ehdate.php:153 ../../inc/class.ehdate.php:168
+msgid "Something went wrong when shaking"
+msgstr "Quelque chose n'a pas marché (méthode shake)"
+
+#: ../../inc/class.ehdate.php:228
+msgid "%b %d %a %Y"
+msgstr "%b %d %a %Y"
+
+#: ../../inc/class.ehdate.php:245 ../../inc/class.ehdate.php:276
+#, php-format
+msgid "Unsupported format %d encountered."
+msgstr "Format %d non supporté"
+
+#: ../../inc/class.ehsimplefreq.php:49 ../../tpl/eventsidebar.tpl:31
+msgid "Friday"
+msgstr "Vendredi"
+
+#: ../../inc/class.ehsimplefreq.php:49 ../../tpl/eventsidebar.tpl:27
+msgid "Monday"
+msgstr "Lundi"
+
+#: ../../inc/class.ehsimplefreq.php:49 ../../tpl/eventsidebar.tpl:32
+msgid "Saturday"
+msgstr "Samedi"
+
+#: ../../inc/class.ehsimplefreq.php:49 ../../tpl/eventsidebar.tpl:33
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: ../../inc/class.ehsimplefreq.php:49 ../../tpl/eventsidebar.tpl:30
+msgid "Thursday"
+msgstr "Jeudi"
+
+#: ../../inc/class.ehsimplefreq.php:49 ../../tpl/eventsidebar.tpl:28
+msgid "Tuesday"
+msgstr "Mardi"
+
+#: ../../inc/class.ehsimplefreq.php:49 ../../tpl/eventsidebar.tpl:29
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#: ../../inc/class.ehsimplefreq.php:50 ../../tpl/eventsidebar.tpl:19
+msgid "1st"
+msgstr "1er"
+
+#: ../../inc/class.ehsimplefreq.php:50 ../../tpl/eventsidebar.tpl:20
+msgid "2nd"
+msgstr "2ème"
+
+#: ../../inc/class.ehsimplefreq.php:50 ../../tpl/eventsidebar.tpl:21
+msgid "3rd"
+msgstr "3ème"
+
+#: ../../inc/class.ehsimplefreq.php:50 ../../tpl/eventsidebar.tpl:22
+msgid "4th"
+msgstr "4ème"
+
+#: ../../inc/class.ehsimplefreq.php:50 ../../tpl/eventsidebar.tpl:23
+msgid "5th"
+msgstr "5ème"
+
+#: ../../inc/class.ehsimplefreq.php:118 ../../inc/class.ehsimplefreq.php:124
+msgid " & "
+msgstr " et "
+
+#: ../../inc/class.ehsimplefreq.php:147 ../../inc/class.ehsimplefreq.php:149
+#: ../../inc/class.ehsimplefreq.php:155
+msgid "Every day"
+msgstr "Chaque jour"
+
+#: ../../inc/class.ehsimplefreq.php:149 ../../inc/class.ehsimplefreq.php:151
+#: ../../inc/class.ehsimplefreq.php:153 ../../inc/class.ehsimplefreq.php:155
+#: ../../inc/class.ehsimplefreq.php:157 ../../inc/class.ehsimplefreq.php:159
+#: ../../inc/class.ehsimplefreq.php:161 ../../tpl/eventsidebar.tpl:16
+msgid "Every"
+msgstr "Chaque"
+
+#: ../../inc/class.ehsimplefreq.php:151 ../../inc/class.ehsimplefreq.php:153
+#: ../../inc/class.ehsimplefreq.php:159
+msgid "week"
+msgstr "semaine"
+
+#: ../../index.php:59
+msgid "Events"
+msgstr "Événements"
+
+#: ../../index.php:64
+msgid "Title"
+msgstr "Titre"
+
+#: ../../index.php:65
+msgid "Start date"
+msgstr "Date de début"
+
+#: ../../index.php:66
+msgid "End date"
+msgstr "Date de fin"
+
+#: ../../index.php:67
+msgid "Repetition pattern"
+msgstr "Motif de répétition"
+
+#: ../../index.php:90
+msgid "Selected entries action:"
+msgstr "Action sur les entrées sélectionnées"
+
+#: ../../index.php:92
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../../tpl/eventsidebar.tpl:3
+msgid "Repeatable"
+msgstr "Répétitif"
+
+#: ../../tpl/eventsidebar.tpl:4
+msgid "Repeatable event"
+msgstr "Événement répétitif"
+
+#: ../../tpl/eventsidebar.tpl:5
+msgid "Click to edit repeat"
+msgstr "Cliquez le bouton pour modifier"
+
+#: ../../tpl/eventsidebar.tpl:18 ../../tpl/eventsidebar.tpl:26
+msgid "All"
+msgstr "Tous"
+
+#: ../../tpl/eventsidebar.tpl:35
+msgid "of the month"
+msgstr "du mois"
+
+#: ../../tpl/eventsidebar.tpl:36
+msgid "Ok"
+msgstr "Valider"
+
+#: ../../tpl/eventsidebar.tpl:37
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: ../../tpl/eventsidebar.tpl:38
+msgid "Use CTRL key to select several items in lists"
+msgstr ""
+"Utilisez la touche Ctrl pour sélectionner plusieurs éléments dans les listes"
+
+#: eventhandler-single.tpl:58
+msgid "from"
+msgstr "de"
+
+#: eventhandler-single.tpl:58
+msgid "period of"
+msgstr "durée de"
+
+#: eventhandler-single.tpl:58
+msgid "to (hour)"
+msgstr "à"

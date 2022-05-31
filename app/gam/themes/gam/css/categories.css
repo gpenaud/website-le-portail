@@ -1,0 +1,103 @@
+
+/*Catégories*/
+#content li{
+    list-style-image: url('/gam/themes/gam/img/grain.png');
+    list-style-position: inside;
+}
+
+/*Toutes les catégories*/
+h2.post-title {
+	background-repeat: no-repeat;
+	height: 40px;
+	vertical-align: middle;
+	padding-top: 9px;  
+}
+
+h2.post-title[class*='li-']{
+	text-indent: 54px;	
+}
+
+/*Pas de catégorie*/
+.cat- {
+	color:darkgreen;
+}
+
+.li-:before {
+	content:"\1F4E7\2006";
+  font-size:45px;
+	vertical-align:middle;
+}
+
+.li- {
+	text-indent: unset!important;;
+}
+.accueil .li-:before{
+  content:unset;	
+}
+
+/*Animation*/
+.cat-11,.cat-11 a:link,.cat-11 a:visited {
+	color:#751761;
+}
+.li-11 {
+	background-image: url("img/icones/cat11.png");
+}
+
+/*Ecoconstruction*/
+.cat-12,.cat-12 a:link,.cat-12 a:visited {
+	color:#dd0127;
+}
+.li-12 {
+	background-image: url("img/icones/cat12.png");
+}
+
+/*Formation*/
+.cat-21,.cat-21 a:link,.cat-21 a:visited{
+	color:#fe9b00;
+}
+.li-21 {
+	background-image: url("img/icones/cat21.png");
+}
+
+
+/*Vente*/
+.cat-14,.cat-14 a:link,.cat-14 a:visited{
+	color:#42d698;
+}
+.li-14 {
+	background-image: url("img/icones/cat14.png");
+}
+
+/*Le Projet*/
+.cat-15,.cat-15 a:link,.cat-15 a:visited{
+	color:#2277e2;
+}
+.li-15 {
+	background-image: url("img/icones/cat15.png");
+}
+
+/* Responsive design */
+@media only screen and (max-width: 768px) {
+  h2.post-title {
+    padding-left:54px;
+    font-size: 16pt;
+    height: auto;
+    position: relative;
+  }
+	h2.post-title[class*="li-"]{
+		text-indent: unset;
+		vertical-align:middle;
+		background-position:left center;
+	}
+  .cat- {
+    padding-left: unset !important;
+  }
+  .li-:before {
+	   font-size:36pt;
+    vertical-align: middle;
+   }
+  .li-{
+    vertical-align: middle;
+  }
+	
+}

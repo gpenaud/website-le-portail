@@ -1,0 +1,217 @@
+# EhRepeat for Dotclear 2.
+# Copyright (C) 2019 Nurbo Teva
+# This file is distributed under the same license as EhRepeat.
+# FIRST AUTHOR <Nurbo Teva>, 2015.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: v 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-19 23:23+0100\n"
+"PO-Revision-Date: 2019-02-19 23:24+0100\n"
+"Last-Translator: Nurbo Teva <dev@taktile.fr>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: _admin.php:21 index.php:53 index.php:59
+msgid "Repetitive events"
+msgstr "Événements répétitifs"
+
+#: _admin.php:62
+msgid "Click button to edit"
+msgstr "Cliquez le bouton pour modifier"
+
+#: index.php:60
+msgid "Events"
+msgstr "Événements"
+
+#: index.php:65
+msgid "Title"
+msgstr "Titre"
+
+#: index.php:66
+msgid "Start date"
+msgstr "Date de début"
+
+#: index.php:67
+msgid "End date"
+msgstr "Date de fin"
+
+#: index.php:68
+msgid "Repetition pattern"
+msgstr "Motif de répétition"
+
+#: index.php:91
+msgid "Selected entries action:"
+msgstr "Action sur les entrées sélectionnées"
+
+#: index.php:93
+msgid "Delete"
+msgstr "Supprimer"
+
+#: _install.php:28
+#, php-format
+msgid ""
+"Eh Repeat requires eventHandler V%s minimum, V%s installed. Please update"
+msgstr ""
+"Eh Repeat nécessite eventHandler V%s au minimum, V%s installée. Merci de mettre à jour"
+
+#: _install.php:49
+msgid "Eh Repeat requires eventHandler"
+msgstr "Eh Repeat nécessite eventHandler"
+
+#: _install.php:54
+msgid "Months number for automatic events generation"
+msgstr "Nombre de mois pour la génération automatique d'événements"
+
+#: _install.php:55
+msgid "Week starts on sunday"
+msgstr "La semaine commence le dimanche"
+
+#: _install.php:56
+msgid "Replace event end date by event duration"
+msgstr "Remplace la date de fin d'un événement par sa durée"
+
+#: _install.php:57
+msgid "Minutes accuracy"
+msgstr "Précision des minutes"
+
+#: _public.php:149
+msgid "Next events"
+msgstr "Prochains événements"
+
+#: _public.php:154
+msgid "No scheduled events"
+msgstr "Aucun événement prévu"
+
+#: _public.php:183 _public.php:187
+msgid "Home"
+msgstr "Accueil"
+
+#: _services.php:25 _services.php:42 _services.php:88
+msgid "Frequency string missing"
+msgstr "Chaîne de fréquence manquante"
+
+#: _services.php:44 _services.php:90
+msgid "Date is missing"
+msgstr "Date manquante"
+
+#: _services.php:67
+msgid "No dates found for this request."
+msgstr "Aucune date trouvée pour cette requête"
+
+#: inc/class.ehdate.php:118
+#, php-format
+msgid "Invalid type for %s, integer expected, %s given."
+msgstr "Type invalide pour %s, entier attendu, %s donné."
+
+#: inc/class.ehdate.php:168
+msgid "Something went wrong when shaking"
+msgstr "Quelque chose n'a pas marché (méthode shake)"
+
+#: inc/class.ehdate.php:276
+#, php-format
+msgid "Unsupported format %d encountered."
+msgstr "Format %d non supporté"
+
+#: inc/class.ehsimplefreq.php:49
+msgid "Monday"
+msgstr "Lundi"
+
+#: inc/class.ehsimplefreq.php:49
+msgid "Tuesday"
+msgstr "Mardi"
+
+#: inc/class.ehsimplefreq.php:49
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#: inc/class.ehsimplefreq.php:49
+msgid "Thursday"
+msgstr "Jeudi"
+
+#: inc/class.ehsimplefreq.php:49
+msgid "Friday"
+msgstr "Vendredi"
+
+#: inc/class.ehsimplefreq.php:49
+msgid "Saturday"
+msgstr "Samedi"
+
+#: inc/class.ehsimplefreq.php:49
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: inc/class.ehsimplefreq.php:50
+msgid "1st"
+msgstr "1er"
+
+#: inc/class.ehsimplefreq.php:50
+msgid "2nd"
+msgstr "2ème"
+
+#: inc/class.ehsimplefreq.php:50
+msgid "3rd"
+msgstr "3ème"
+
+#: inc/class.ehsimplefreq.php:50
+msgid "4th"
+msgstr "4ème"
+
+#: inc/class.ehsimplefreq.php:50
+msgid "5th"
+msgstr "5ème"
+
+#: inc/class.ehsimplefreq.php:118
+msgid " & "
+msgstr " et "
+
+#: inc/class.ehsimplefreq.php:149
+msgid "Every day"
+msgstr "Chaque jour"
+
+#: inc/class.ehsimplefreq.php:151 inc/class.ehsimplefreq.php:153
+#: inc/class.ehsimplefreq.php:155
+msgid "Every"
+msgstr "Chaque"
+
+#: inc/class.ehsimplefreq.php:153
+msgid "week"
+msgstr "semaine"
+
+#: _public.php:144
+msgid "%A %e %B (%H:%M)"
+msgstr "%A %e %B (%Hh%M)"
+
+#: tpl/eventsidebar.tpl:3
+msgid "Repeatable"
+msgstr "Répétitif"
+
+#: tpl/eventsidebar.tpl:4
+msgid "Repeatable event"
+msgstr "Événement répétitif"
+
+#: tpl/eventsidebar.tpl:9
+msgid "Edit repeat"
+msgstr "Éditer les répétitions"
+
+#: tpl/eventsidebar.tpl:21 tpl/eventsidebar.tpl:29
+msgid "All"
+msgstr "Tous"
+
+#: tpl/eventsidebar.tpl:39
+msgid "Ok"
+msgstr "Valider"
+
+#: tpl/eventsidebar.tpl:40
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: tpl/eventsidebar.tpl:41
+msgid "Use CTRL key to select several items in lists"
+msgstr "Utilisez la touche Ctrl pour sélectionner plusieurs éléments dans les listes"
+

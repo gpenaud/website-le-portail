@@ -1,0 +1,348 @@
+/*
+# ***** BEGIN LICENSE BLOCK *****
+#
+# License: http://creativecommons.org/licenses/by-nc/2.0/fr/
+#
+# ***** END LICENSE BLOCK *****
+*/
+
+#navsm {display:none;}
+
+/* MenuPortail */
+#nav {
+    display:block;
+    margin: 0px 55px 0px 55px;
+    height: 45px;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background:none;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+#nav>ul {
+    vertical-align: middle;
+    /*! height: 45px; */
+    margin-top: 9px;
+}
+
+#nav>ul>li {
+    border: 1px solid lightgreen;
+    z-index: 90;
+}
+
+#nav>ul>li.last_menu {
+    float: right;
+}
+
+#nav > ul > li:not(.nosub):hover,#nav > ul > li:not(.nosub).hover-effect {
+    border-radius: 10px 10px 0 0;	
+    /*! line-height: 32px; */
+    height: 32px !important;
+}
+
+#nav ul ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color:#3f3f3f;
+    float: left;
+    height:auto;
+    width: auto;
+    display:none;
+    position:absolute;
+    left:0;
+    border-radius: 0 10px 10px 10px;
+    width: 216px;
+
+}
+#nav ul li ul ul {
+    filter:none;
+    opacity:1;
+    background:none;
+    border:none;
+}
+
+#nav ul li:hover ul,#nav ul li.hover-effect ul {
+    margin-top: 3px;
+    /*! border: 1px solid lightgreen; */
+    z-index: 90;
+    border-top: none;
+}
+
+#nav li {
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+    display: block;
+    min-height: 27px;
+    /*! text-transform: lowercase; */
+    font-size: 10pt;
+    text-decoration: none;
+    margin-right:10px;
+    background-color:#FFFFCC;
+    /*! line-height: 27px; */
+}
+
+* html #nav li a { /* Filter for IE6 to prevent li stacking */
+    float: left;
+    text-decoration: none;
+}
+* html #nav li a { /* Filter for IE6 to prevent li stacking */
+    float: left;
+    margin-left: 4px;
+    text-decoration: none;
+}
+#nav li a {
+    display: block;
+    height: 27px;
+    /*! text-transform: lowercase; */
+    font-size: 10pt;
+    margin-left: 6px;
+    padding-left: 3px;
+    padding-right: 9px;
+    line-height: 27px;
+    font-weight: bold;
+    color: #FFF;
+    text-decoration: none;
+    color:#3f3f3f;
+
+}
+
+#nav li:hover, #nav li.hover-effect, #nav li.top_parent, #nav li.current_page_item {
+    cursor: pointer; /* For IE6 */
+    text-decoration: none;
+    background-color:#3f3f3f;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+
+#nav li:hover a, #nav li.hover-effect a, #nav li.top_parent a, #nav li.current_page_item a{
+    color:#ffb;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: " ...";
+}
+
+#nav li li.top_parent, #nav li li.current_page_item {
+    cursor: pointer; /* For IE6 */
+    text-decoration: none;
+    background:none;
+}
+
+#nav li li.current_page_item a {
+    color:#bfbfbf;
+}
+#nav ul li li.current_page_item li a {color:#99c;}
+#nav > ul > li:not(.nosub):hover, #nav > ul > li:not(.nosub).hover-effect {
+    position:relative;
+    /*! z-index:92; */
+    border-bottom: none;
+    /*height: unset !important;*/
+    background-color: #3f3f3f;
+}
+#nav ul li:hover ul {
+    display:block;
+}
+#nav ul li ul ul {
+    position:relative;
+    top:0;
+    padding:0;
+    margin:0;
+}
+#nav ul li {
+    padding:0;
+    vertical-align:middle;
+    float:left;
+    position:relative;
+}
+#nav ul li li:hover, #nav ul li li.hover-effect-effect {
+    cursor: pointer; /* For IE6 */
+    text-decoration: none;
+    background:none;
+    border-radius: 10px 10px 0 0;
+}
+#nav ul li li {
+    float:none;
+    clear:both;
+    width:auto;
+    height:auto;
+    margin:0;
+    padding:0;
+    /*! white-space:nowrap; */
+    display:block;
+    position:relative;
+    line-height:1.3em;
+    background:none;
+}
+#nav ul li li li {
+    padding:0 0 0 1em;
+}
+* html #nav ul li li {
+    width:200px;
+}
+#nav ul li a {
+}
+* html #nav ul li a {
+    width:10px;
+}
+* html #nav ul li li a, * html #nav ul li li ul {
+    width:100%;
+}
+#nav ul li li a:hover, #nav ul li li li a:hover,
+#nav ul li li a.hover-effect-effect, #nav ul li li li a.hover-effect-effect{
+    color:#bfbfbf;
+}
+#nav ul li li, #nav ul li li li,
+#nav ul li li a, #nav ul li li li a {color:#9999cc;}
+#nav ul li ul li a {
+    display:block;
+    font-weight:normal;
+    position:relative;
+    text-decoration:none;
+    height:2em;
+    line-height:2em;
+}
+
+.cat_subitem {
+    font-style: italic;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 768px) {
+    #nav {
+        position: absolute;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        margin: 0;
+        opacity: 0;
+        overflow: hidden;
+        height: 100%;
+        width: 0px;
+        background-color: #ffffffcc;
+        /*! outline: 10px #ffffffcc solid; */
+
+    }
+
+    #nav>ul{
+        background-color:#ffffbbcc;
+        display: flex;
+        flex-flow: column nowrap;
+        height: 100%;
+        align-items: stretch;
+        width: 95%;
+        border: 1px solid black;
+        margin: 0;
+        padding-top:10vw;    
+    }
+
+    #nav>ul>li{	
+        color: black;
+        z-index: unset;
+        float: none;
+        position: unset;
+        margin: 0;
+        display: inline-block;
+    }
+
+    #nav>ul>li>a {
+        font-size:17px;
+        line-height: 39px;
+        height: 39px;
+        vertical-align: middle;
+    }
+    
+    #nav>ul>li>a>span {
+        width:27vw;
+        display: block;
+    }
+   
+    #nav>ul>li:hover>a,#nav>ul>li>a,
+    #nav>ul>li.hover-effect>a{
+        color:black;
+        /*! height: unset !important; */
+    }
+
+    #nav>ul>li:hover,#nav>ul>li.hover-effect{
+        color:black;
+    }
+
+    #nav > ul > li:not(.nosub):hover,
+    #nav > ul > li:not(.nosub).hover-effect {
+
+    }
+
+    #nav>ul>li.page_item, #nav > ul > li.nosub, #nav>ul>li.last_menu{
+        border: none;
+        z-index: unset;
+        background-color: unset;
+        padding: 0;
+        margin: 0;
+        border-radius:unset;
+        /*! display: block; */
+        height: unset !important;
+    }
+
+    #nav>ul>li:hover, #nav>ul>li.hover-effect-effect{
+        height: unset !important;		
+    }
+
+    #nav>ul>li.current_page_item{
+        background-color: #3f3f3f;
+        border-radius: unset;
+    }
+
+    #nav>ul>li.page_item:hover, #nav>ul>li.nosub:hover, #nav>ul>li.last_menu:hover,
+    #nav>ul>li.page_item.hover-effect, #nav>ul>li.nosub.hover-effect, #nav>ul>li.last_menu.hover-effect{
+        border-radius: unset;
+        font-style: oblique;
+        background-color: #3f3f3f;
+    }
+
+    #nav>ul>li.nosub{
+
+    }
+
+    #nav>ul>li.nosub:hover,#nav>ul>li.nosub.hover-effect{
+
+    }
+
+    #nav>ul ul.subitem{	
+        width: 100%;
+        border-radius: unset;
+        text-indent: 10px;
+        /*! position: absolute; */
+    }
+    
+    #nav .subitem li a{
+        border: dotted 1px transparent;
+        width:64vw;
+        font-size: 17px;
+    }
+
+    #nav>ul li:hover ul.subitem,
+    #nav>ul li.hover-effect ul.subitem{
+        margin: 0;
+        float: none;
+        position: absolute;
+        height: unset;
+        display: block;
+        top: 0;
+        left: auto;
+        width: 66vw;
+        right: 0;
+    }
+    
+   #nav ul li li a:hover, #nav ul li li li a:hover,
+   #nav ul li li a.hover-effect-effect, #nav ul li li li a.hover-effect-effect{
+        color:black;
+        border: 1px dotted black;
+    }
+}

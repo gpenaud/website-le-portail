@@ -1,0 +1,33 @@
+{{tpl:extends parent="page.html"}}
+<tpl:Block name="template">
+	<!-- nouvelles.html (dans dossier public) -->
+</tpl:Block>
+<tpl:Block name="head-title">
+	<title>Dernières nouvelles du Portail</title>
+</tpl:Block>
+
+<tpl:Block name="meta-robots">
+	<meta name="ROBOTS" content="{{tpl:BlogMetaRobots robots="NOINDEX"}}" />
+</tpl:Block>
+
+<tpl:Block name="meta-entry">
+	<meta name="description" lang="{{tpl:BlogLanguage}}" content="{{tpl:CategoryDescription encode_html="1" cut_string="180" remove_html="1"}}" />
+	<meta name="author" content="{{tpl:BlogEditor encode_html="1"}}" />
+	<meta name="date" content="{{tpl:BlogUpdateDate iso8601="1"}}" />
+</tpl:Block>
+
+<tpl:Block name="body-tag"><body class="dc-page dc-news"></tpl:Block>
+<tpl:Block name="publicEntryAfterContent">
+		<tpl:Entries selected="1" sortby="date" order="desc" no_context="1">
+			<tpl:EntriesHeader>
+				<ul class="news_list">
+			</tpl:EntriesHeader>
+
+			<li class="cat-{{tpl:EntryCategoryParent id="1"}}"><a
+			href="{{tpl:EntryURL}}">{{tpl:EntryTitle encode_html="1"}}</a> <i>{{tpl:EntryDate format="%e %B %Y"}}</i></li>
+
+			<tpl:EntriesFooter>
+				</ul>
+			</tpl:EntriesFooter>
+		</tpl:Entries>
+</tpl:Block>

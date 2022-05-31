@@ -1,0 +1,412 @@
+# dotSlick localization.
+# Copyright (C) 2019
+# This file is distributed under the same license as the PACKAGE dotslick.
+# FIRST AUTHOR <dev@taktile.fr>, 2019.
+# Nurbo Teva <dev@taktile.fr>, 2019.
+#
+msgid   ""
+msgstr  "Project-Id-Version: 20190629\n"
+        "Report-Msgid-Bugs-To: \n"
+        "POT-Creation-Date: 2019-07-08 23:39+0200\n"
+        "PO-Revision-Date: 2019-07-02 00:33+0200\n"
+        "Last-Translator: Nurbo Teva <dev@taktile.fr>\n"
+        "Language-Team: français <>\n"
+        "Language: fr\n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=UTF-8\n"
+        "Content-Transfer-Encoding: 8bit\n"
+        "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+        "X-Generator: Gtranslator 2.91.7\n"
+
+#: ../../_admin.php:19 ../../_install.php:22
+msgid   "dotSlick requires dcCKEWidget plugin to operate. Please install and "
+        "enable it first"
+msgstr  "dotSlick ,nécessite le plugin dcCKEWidget pour fonctionner. Merci de "
+        "l'installer et de l'activer"
+
+#: ../../_admin.php:111
+msgid   "dotSlick Gallery successfully generated"
+msgstr  "La galerie dotSlick a été générée avec succès"
+
+#: ../../_admin.php:115
+#, php-format
+msgid   "dotSlick Gallery compilation error with string «%s»<br/>%s"
+msgstr  "erreur de compilation de la Galerie dotSlick avec la chaîne «%s»<br/>"
+        "%s"
+
+#: ../../_define.php:17
+msgid   "Insert slick galleries in your posts"
+msgstr  "Insérez des galeries fluides dans vos posts"
+
+#: ../../_install.php:30
+msgid   "Enable dotSlick plugin"
+msgstr  "Activer le plugin dotSlick"
+
+#: ../../_install.php:31
+msgid   "Extra post types which use dotslick"
+msgstr  ""
+
+#: ../../_install.php:32
+msgid   "Autoplay galleries"
+msgstr  "Lecture automatique"
+
+#: ../../_install.php:33
+msgid   "Loop galleries infinitely"
+msgstr  "Boucle infinie"
+
+#: ../../_install.php:34
+msgid   "Pause slideshow when cursor is over"
+msgstr  "Pause au survol"
+
+#: ../../_install.php:35
+msgid   "Gallery autoplay slide changing delay"
+msgstr  "Vitesse de changement d'image automatique"
+
+#: ../../_install.php:36 ../../popup.php:231 ../../tpl/admin.tpl:66
+msgid   "Enable mousewheel navigation"
+msgstr  "Activer la navigation à la molette de souris"
+
+#: ../../_install.php:38
+msgid   "Make gallery pictures clickable"
+msgstr  "Rendre les images clickables"
+
+#: ../../_install.php:39
+msgid   "Display navigation dots"
+msgstr  "Afficher les points de navigation"
+
+#: ../../_install.php:40
+msgid   "Display navigation arrows"
+msgstr  "Afficher les flèches de navigation"
+
+#: ../../_install.php:41
+msgid   "Gallery height in pixels"
+msgstr  "Hauteur des images en pixels"
+
+#: ../../_services.php:24 ../../_services.php:53 ../../_services.php:71
+msgid   "Description string missing"
+msgstr  "Chaîne de description manquante"
+
+#: ../../_services.php:87
+#, php-format
+msgid   "%d picture"
+msgid_plural    "%d pictures"
+msgstr[0]       "%d image"
+msgstr[1]       "%d images"
+
+#: ../../admin.php:34
+msgid   "Galleries options successfully saved"
+msgstr  "Options préférées enregistrées avec succès"
+
+#: ../../admin.php:58
+msgid   "Plugin settings successfully saved"
+msgstr  "Paramètres du plugin enregistrés avec succès"
+
+#: ../../admin.php:79
+msgid   "%d gallery has been regenerated"
+msgid_plural    "%d galleries have been regenerated"
+msgstr[0]       "une galerie a été régénérée"
+msgstr[1]       "%d galeries ont été régénérées"
+
+#: ../../admin.php:82
+#, php-format
+msgid   "%d gallery was not regenerated"
+msgid_plural    "%d galleries were not regenerated"
+msgstr[0]       "une galerie n'a pas été régénérée"
+msgstr[1]       "%d galeries n'ont pas été régénérées"
+
+#: ../../inc/class.dsgalleries.php:99
+#, php-format
+msgid   "problem with gallery %d regeneration."
+msgstr  "problème avec la régénération de la galerie %d"
+
+#: ../../inc/class.dsmedia.php:139
+msgid   "Parent folder"
+msgstr  "Dossier parent"
+
+#: ../../inc/dotslick.js.php:28
+msgid   "link images"
+msgstr  "images clickables"
+
+#: ../../inc/dotslick.js.php:28
+msgid   "unclickable images"
+msgstr  "images non clickables"
+
+#: ../../inc/dotslick.js.php:29
+msgid   "slideshow speed"
+msgstr  "vitesse du diaporama"
+
+#: ../../inc/dotslick.js.php:30
+msgid   "autoplay"
+msgstr  "lecture automatique"
+
+#: ../../inc/dotslick.js.php:30
+msgid   "manual play"
+msgstr  "lecture manuelle"
+
+#: ../../inc/dotslick.js.php:31
+msgid   "don't pause slideshow"
+msgstr  "pas de pause"
+
+#: ../../inc/dotslick.js.php:31
+msgid   "pause slideshow when over"
+msgstr  "pause au survol"
+
+#: ../../inc/dotslick.js.php:32
+msgid   "infinite loop"
+msgstr  "boucle infinie"
+
+#: ../../inc/dotslick.js.php:32
+msgid   "loop once"
+msgstr  "une boucle"
+
+#: ../../inc/dotslick.js.php:33
+msgid   "hide dots"
+msgstr  "cacher les points"
+
+#: ../../inc/dotslick.js.php:33
+msgid   "show dots"
+msgstr  "montrer les points"
+
+#: ../../inc/dotslick.js.php:34
+msgid   "hide arrows"
+msgstr  "cacher les flèches"
+
+#: ../../inc/dotslick.js.php:34
+msgid   "show arrows"
+msgstr  "montrer les flèches"
+
+#: ../../inc/dotslick.js.php:35
+msgid   "images height"
+msgstr  "hauteur des images"
+
+#: ../../inc/dotslick.js.php:36
+msgid   "disable mousewheel animation"
+msgstr  "pas de navigation à la molette"
+
+#: ../../inc/dotslick.js.php:36
+msgid   "enable mousewheel animation"
+msgstr  "navigation à la molette"
+
+#: ../../inc/dotslick.js.php:37
+msgid   "no pictures. Bug!"
+msgstr  "pas d'images. Bug!"
+
+#: ../../inc/dotslick.js.php:38
+msgid   "Insert a gallery"
+msgstr  "Insère une galerie dotSlick"
+
+#: ../../inc/dotslick.js.php:39
+msgid   "Options :"
+msgstr  "Options :"
+
+#: ../../inc/dotslick.js.php:40
+msgid   "Doubleclick to change the gallery images and settings"
+msgstr  "Doublecliquez pour modifier les images et les réglages de la galerie"
+
+#: ../../popup.php:25
+msgid   "Insert & close"
+msgstr  "Insérer et fermer"
+
+#: ../../popup.php:75
+msgid   "Update & close"
+msgstr  "Mettre à jour et fermer"
+
+#: ../../popup.php:90
+#, php-format
+msgid   "Error loading gallery description, reverting to default "
+        "values<br><code>%s</code>"
+msgstr  "Erreur dans le chargement de la galerie, retour aux valeurs par "
+        "défaut<br><code>%s</code>"
+
+#: ../../popup.php:102
+msgid   "Default options successfully saved"
+msgstr  "Options préférées enregistrées avec succès"
+
+#: ../../popup.php:108
+msgid   "Composing a gallery has never been so simple.<br/>First, browse the "
+        "media library, pick folders and/or single pictures and drag them in "
+        "the Gallery frame.<br>You can reorder or delete the items in the "
+        "Gallery view using drag'n'drop.<br>You can customize the gallery "
+        "with a bunch of options.<br>If the default options don't suit your "
+        "needs, you can click \"Save defaults\" to memorize your favorite "
+        "options.<br>Once done, click \"Save and close\" to go back to the "
+        "post editor."
+msgstr  "Créer une galerie n'a jamais été aussi simple.<br/>Tout d'abord, "
+        "parcourez la médiathèque, prenez des dossiers et/ou des images "
+        "isolées, et déposez les dans le cadre \"Galerie\".<br/>Vous pouvez "
+        "réordonner ou effacer les éléments de la Galerie par glisser-déposer."
+        "<br>Vous pouvez personnaliser la galerie à l'aide d'un ensemble "
+        "d'options.<br>Si les options proposées par défaut ne vous "
+        "conviennent pas, vous pouvez cliquer sur \"Enregistrer les paramètres"
+        "\" pour mémoriser vos options favorites.<br>Lorsque c'est fait, "
+        "cliquez \"Enregistrer et fermer\" pour revenir à l'éditeur de "
+        "billets."
+
+#: ../../popup.php:144
+msgid   "Insert dotSlick gallery"
+msgstr  "Insère une galerie dotSlick"
+
+#: ../../popup.php:157
+msgid   "Number of images in folder & subfolders"
+msgstr  "Nombre d'images dans le dossier et ses sous-dossiers"
+
+#: ../../popup.php:158
+msgid   "Number of images in folder"
+msgstr  "Nombre d'images dans le dossier"
+
+#: ../../popup.php:160
+#, php-format
+msgid   "contains %d pictures"
+msgstr  "contient %d images"
+
+#: ../../popup.php:161
+msgid   "contains 1 picture"
+msgstr  "contient 1 image"
+
+#: ../../popup.php:164
+msgid   "Media Library"
+msgstr  "Médiathèque"
+
+#: ../../popup.php:166
+msgid   "Media Gallery"
+msgstr  "Galerie d'images"
+
+#: ../../popup.php:168
+msgid   "Drag images and image folders<br/>You may reorder them"
+msgstr  "Glissez des images et des dossiers d'images<br/>Vous pourrez les "
+        "réordonner"
+
+#: ../../popup.php:182 ../../tpl/admin.tpl:21
+msgid   "Autoplay settings"
+msgstr  "Réglages du diaporama"
+
+#: ../../popup.php:183 ../../tpl/admin.tpl:22
+msgid   "Autoplay"
+msgstr  "Lecture automatique"
+
+#: ../../popup.php:186 ../../popup.php:195 ../../popup.php:201
+#: ../../popup.php:215 ../../popup.php:221 ../../popup.php:227
+#: ../../popup.php:233 ../../tpl/admin.tpl:24 ../../tpl/admin.tpl:33
+#: ../../tpl/admin.tpl:39 ../../tpl/admin.tpl:50 ../../tpl/admin.tpl:56
+#: ../../tpl/admin.tpl:62 ../../tpl/admin.tpl:68 ../../tpl/admin.tpl:105
+msgid   "No"
+msgstr  "Non"
+
+#: ../../popup.php:187 ../../popup.php:196 ../../popup.php:202
+#: ../../popup.php:216 ../../popup.php:222 ../../popup.php:228
+#: ../../popup.php:234 ../../tpl/admin.tpl:25 ../../tpl/admin.tpl:34
+#: ../../tpl/admin.tpl:40 ../../tpl/admin.tpl:51 ../../tpl/admin.tpl:57
+#: ../../tpl/admin.tpl:63 ../../tpl/admin.tpl:69 ../../tpl/admin.tpl:106
+msgid   "Yes"
+msgstr  "Oui"
+
+#: ../../popup.php:190 ../../tpl/admin.tpl:28
+msgid   "Autoplay speed (in ms)"
+msgstr  "Vitesse du diaporama (en ms)"
+
+#: ../../popup.php:191 ../../tpl/admin.tpl:29
+msgid   "Set the slideshow speed in milliseconds"
+msgstr  "Réglez la vitesse du diaporama en millisecondes"
+
+#: ../../popup.php:193 ../../tpl/admin.tpl:31
+msgid   "Infinite loop"
+msgstr  "Boucle infinie"
+
+#: ../../popup.php:199 ../../tpl/admin.tpl:37
+msgid   "Pause when over"
+msgstr  "Pause au survol"
+
+#: ../../popup.php:209 ../../tpl/admin.tpl:47
+msgid   "Other settings"
+msgstr  "Autres réglages"
+
+#: ../../popup.php:210
+msgid   "Gallery title"
+msgstr  "Titre de la galerie"
+
+#: ../../popup.php:210
+msgid   "Required field"
+msgstr  "Champ obligatoire"
+
+#: ../../popup.php:213 ../../tpl/admin.tpl:48
+msgid   "Link image to original"
+msgstr  "Rendre les images cliquables"
+
+#: ../../popup.php:219 ../../tpl/admin.tpl:54
+msgid   "Display dots"
+msgstr  "Afficher les points"
+
+#: ../../popup.php:225 ../../tpl/admin.tpl:60
+msgid   "Display arrows"
+msgstr  "Afficher les flèches"
+
+#: ../../popup.php:237 ../../tpl/admin.tpl:72
+msgid   "Slides height (in px)"
+msgstr  "Hauteur des images (en px)"
+
+#: ../../popup.php:238 ../../tpl/admin.tpl:73
+msgid   "Set slides height in pixels"
+msgstr  "Réglez la hauteur des images en pixels"
+
+#: ../../popup.php:247
+msgid   "Reset all values"
+msgstr  "Réinitialiser toutes les valeurs"
+
+#: ../../popup.php:248
+msgid   "Save defaults"
+msgstr  "Enregistrer les paramètres"
+
+#: ../../tpl/admin.tpl:12
+msgid   "dotSlick admin page"
+msgstr  "Page d'administration de dotSlick"
+
+#: ../../tpl/admin.tpl:16
+msgid   "Galleries settings"
+msgstr  "Réglages des galeries"
+
+#: ../../tpl/admin.tpl:80 ../../tpl/admin.tpl:117
+msgid   "Save"
+msgstr  "Enregistrer"
+
+#: ../../tpl/admin.tpl:83
+msgid   "Galleries"
+msgstr  "Galeries"
+
+#: ../../tpl/admin.tpl:91
+msgid   "# of galleries in this post"
+msgstr  "Nombre de galeries dans ce billet"
+
+#: ../../tpl/admin.tpl:92
+msgid   "Edit"
+msgstr  "Éditer"
+
+#: ../../tpl/admin.tpl:93
+msgid   "View"
+msgstr  "Voir"
+
+#: ../../tpl/admin.tpl:98
+msgid   "regenerate all"
+msgstr  "Régénérer toutes"
+
+#: ../../tpl/admin.tpl:98
+msgid   "regenerate selected"
+msgstr  "Régénérer sélectionnées"
+
+#: ../../tpl/admin.tpl:100
+msgid   "Plugin settings"
+msgstr  "Réglages du plugin"
+
+#: ../../tpl/admin.tpl:103
+msgid   "Enable dotSlick galleries on your posts"
+msgstr  "Activez les galeries dotslick dans vos billets"
+
+#: ../../tpl/admin.tpl:109
+msgid   "Post types which use dotslick"
+msgstr  "Types de billets utilisant dotslick"
+
+#: ../../tpl/admin.tpl:120
+msgid   "Debug"
+msgstr  "Débeugue"
+
+#~ msgid        "%d picture(s)"
+#~ msgstr       "%d image(s)"

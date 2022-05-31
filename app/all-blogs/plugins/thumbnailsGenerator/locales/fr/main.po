@@ -1,0 +1,33 @@
+msgid "Original"
+msgstr "Original"
+
+msgid "Create"
+msgstr "Créer"
+
+msgid "Update"
+msgstr "Mettre à jour"
+
+msgid "A thumbnail has been successfully created for the/each following picture:"
+msgstr "Une miniature a été créée avec succès pour la/les image(s) suivante(s) :"
+
+msgid "The thumbnails have been successfully created for the/each following picture:"
+msgstr "Les miniatures ont été créées avec succès pour la/les image(s) suivante(s) :"
+
+msgid "No thumbnail created"
+msgstr "Aucune miniature créée"
+
+msgid "Thumbnail(s) successfully deleted:"
+msgstr "Miniature(s) supprimée(s) avec succès :"
+
+msgid "No thumbnail deleted"
+msgstr "Aucune miniatures supprimée"
+
+msgid "Create or delete thumbnail"
+msgstr "Créer ou supprimer des miniatures"
+
+msgid 'Pictures\'s directory to process'
+msgstr "Répertoire d'images à traiter"
+
+msgid "Thumbnail(s) successfully deleted"
+msgstr "Minature(s) supprimée(s) avec succès"
+

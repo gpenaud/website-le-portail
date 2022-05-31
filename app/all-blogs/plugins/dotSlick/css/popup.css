@@ -1,0 +1,241 @@
+/* -- BEGIN LICENSE BLOCK ----------------------------------
+//
+// This file is part of dotSlick, a plugin for Dotclear 2.
+// 
+// Copyright (c) 2019 Bruno Avet
+// Licensed under the GPL version 2.0 license.
+// A copy of this license is available in LICENSE file or at
+// http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+//
+// -- END LICENSE BLOCK ------------------------------------*/
+
+#gallery > span {
+  display:none;  
+}
+
+#gallery > span:only-child {
+  display:inline-block;
+  margin:auto;
+  width:77%;
+  line-height: 2.8em;
+  text-align: center;
+  vertical-align: middle;
+  font-size:x-large;
+  justify-self: center;
+  align-self: center;
+  flex-grow: 99;
+}
+
+#gallery.dragreceive {
+  background-color: #FFF6AA;
+}
+
+#gallery {
+  transition: background-color 1s;
+}
+
+#content>fieldset {
+    border-top:unset;
+}
+
+#gallery-wrapper {
+  position: relative;
+  overflow:hidden;
+}
+
+#medias, #gallery, #gallery-wrapper {
+  width:94vw;    
+}
+
+#medias, #gallery {
+  height:213px;
+  border:black 1px solid;
+  background-color:white;    
+  display:flex;
+  flex-flow: row wrap;
+  overflow-y:auto;
+  overflow-x:unset;
+  vertical-align: top;
+  padding: 3px;
+  position: relative;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+#medias div, #gallery div,.ui-draggable-dragging, #gallerytrash {
+    height:100px !important;
+    width:77px !important;
+    border:1px dotted red;
+    text-align:center;
+    cursor:pointer;
+    overflow:hidden;
+    position: relative;
+    margin:1.5px;
+    right: unset !important;
+    bottom: unset !important;
+  background-color:white;
+  border-radius:5px;
+    /*! align-self: flex-start; */
+}
+
+#gallerytrash {
+  position:absolute;
+  z-index: 500;
+  top:auto;
+  left:auto;
+  right:5px !important;
+  bottom:5px !important;
+}
+
+
+
+#medias figure, #gallery figure ,.ui-draggable-dragging figure{
+  margin:auto;
+  height:100%;
+  position:relative;
+}
+
+
+
+#medias figcaption, #gallery figcaption {
+  font-size:8pt;
+  line-height:10pt;
+  color:cornflowerblue;
+  width:77px;
+  overflow:hidden;
+  word-wrap: break-word;
+  word-break: keep-all;
+  text-overflow: ellipsis;
+  display:block;
+  position:absolute;
+  top:auto;
+  bottom:0;
+  padding-left:1px;
+  padding-right: 1px;
+  background-color:cornsilk;
+   
+}
+
+.ui-draggable-dragging figcaption {
+  display:none;
+}
+
+.fcount, .tcount{
+    display:inline;
+    color:white;
+    font-weight: bold;
+    background-color:red;
+    top:auto;
+    left:auto;
+    font-size:8pt;
+    padding-left:2px;
+    padding-right: 2px;
+    border-radius:3px;
+    position:absolute;
+    top:28px;
+    bottom:auto;
+    left:auto;
+    width: 20px;
+    right: 16px;
+    z-index: 1;
+}
+
+#medias .tcount {
+  left:16px;
+  right:auto;
+  background-color:springgreen;
+}
+
+#gallery .tcount, .ui-draggable-dragging .tcount {
+  display:none;
+}
+
+#medias div[type=overlay]{
+  background-color: #222c;
+  position:absolute;
+  width:93vw !important;
+  height:206px !important;
+  padding-top:5px;
+  border:none;
+  z-index: 100;
+  margin: unset;
+  /*! top: 0; */
+  /*! bottom: 0; */
+  outline: 10px solid #222c;
+  border-radius: unset;
+}
+
+#medias div.overlay-helper {
+  z-index:101;
+}
+
+#medias div[type=overlay] img{
+  max-height:175px;
+  max-width: 75vw;
+}
+
+#medias div[type=overlay] figcaption{
+  background-color:#222a;
+  color:cornsilk;
+  font-size:13pt;
+  line-height:21pt;
+  vertical-align: middle;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  max-width: unset;
+  padding: 0;
+  top: auto;
+  bottom: 0px;
+}
+
+#medias div[type=overlay] figure {
+  margin: 0;
+  padding: 0;
+  /*! padding-top:10px; */
+}
+
+#gallery.drag-receive{
+  background-color:yellow;
+}
+
+#gallery.drag-accept {
+  background-color:red;
+}
+
+#gallery .galleryplaceholder {
+  background-color:#2221;
+  border:unset;
+}
+
+#gallerytrash {
+  border:4px solid red !important;
+  align-self:  last baseline;
+  background-image:url(index.php/?pf=dotSlick/img/trash.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  /*! align-items: flex-end; */
+  /*! justify-self: flex-end; */
+  display: none;
+  transition: background-color 1s;
+}
+
+.trash-open {
+    background-color:yellow !important;
+    background-image: url(index.php/?pf=dotSlick/img/trash-open.png) !important;
+    transition: background-color 1s;
+}
+
+#gallery-count, #media-breadcrumb {
+  float:right;
+  font-size:small;
+  vertical-align:bottom;
+  line-height: 3.25;
+}
+  
+/*Override dotclear admin theme settings*/
+.two-cols .col{
+  width:48% !important;
+ 
+}
+  

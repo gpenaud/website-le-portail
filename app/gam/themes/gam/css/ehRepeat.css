@@ -1,0 +1,54 @@
+/*EhRepeat blocks*/
+
+.slavelist{
+    line-height: 1.3em;
+}
+
+.event-slaves {
+    display:block;
+    height:7em;
+    overflow-y: auto;
+    overflow-x: hidden; 
+}
+
+.slavelist.center{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slavelist.left{
+    width:50%;
+    float:left;
+}
+
+.slavelist.right{
+    width:50%;
+    float:right;
+}
+
+li.event-date{
+    list-style-image: none !important;
+    list-style: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .slavelist.left,.slavelist.right,.slavelist.center{
+        float: none;
+        width: 97%;
+    }
+
+    .event-slaves a{
+        font-size:small !important;
+    }
+
+    .event-slaves{
+        height:unset;
+        font-size:small !important;
+
+    }
+    .event-slaves>li:nth-child(n+8){
+        display: none;
+    }
+}
+

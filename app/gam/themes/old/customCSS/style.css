@@ -1,0 +1,379 @@
+/*éléments à cacher*/
+#prelude,.day-date,.post-info,.post-info-co,#comments,#navlinks,.page-info{
+  display:none;
+}
+
+/*body et réglages généraux*/
+body{
+  background-image:url(/gam/public/contextBg/default.jpg);
+  background-attachment: fixed;
+  background-size: contain;
+  font-family: Tahoma, Arial, Verdana, Geneva, Helvetica, sans-serif;
+  line-height: 1.6em;
+}
+
+a {
+   color:inherit;
+   text-decoration: none;
+}
+
+
+/*entête*/
+#top>h1 {
+  display: none;
+}
+
+#top {
+  height: 21vh;
+  left: 0;
+  background-image: url(/gam/themes/gam/img/bannierehaut.png);
+  background-size: 70vw;
+  background-repeat: no-repeat;
+  margin:0;
+  background-position: right top;
+  display: block;
+  overflow: hidden;
+}
+
+#logo{
+  z-index: 1000;
+  float: left;
+  margin: 0.2vw;
+}
+
+#page {
+  margin:auto;
+  width:77vw;
+  padding: 0 0px 0 0px;
+  display: block;
+  resize: both;
+  overflow: auto;
+  outline: 10px #ffffbb88 solid;
+  background-color: #ffffbb88;
+}
+
+/*Fil d'Ariane*/
+#breadcrumb a {
+    text-decoration: none;
+    color: #ffb;
+    font-weight: bold;
+}
+
+#breadcrumb a:hover {
+    color:#bb7;
+}
+
+#breadcrumb {
+  font-style: oblique;
+  color: #ffb;
+  font-family: Arial, Helvetica, "Trebuchet MS", sans-serif;
+  font-size: larger;
+  margin: 0;
+  background-image: url(/gam/themes/gam/img/bannierebas.png);
+  height: 22.5vh;
+  vertical-align: bottom;
+  line-height: 38.5vh;
+  padding-left: 9vw;
+  background-repeat: no-repeat;
+  background-position-y: 13.5vh;
+}
+
+#main, #sidebar, #footer, #top{  
+  background-color: #ffb;
+  border-radius: 10px;
+}
+
+#wrapper {
+  margin-top:17px;
+  margin-bottom:7px;
+  display: grid;
+  grid-template-columns: auto 190px;
+  padding: 2px 0px 10px 0px;
+  overflow: auto;
+  grid-column-gap: 14px;
+}
+
+#main {
+  padding: 7px 7px 7px 7px;
+  /*! margin-left: 10px; */
+}
+
+#sidebar {
+  padding: 5px;
+}
+
+#content {
+  
+}
+
+/*Pied de page*/
+#footer {
+  padding:1px 0 1px 0px;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+#footer .adresse {
+  font-style: oblique;
+  font-size: 0.8em; 
+}
+
+#footer a:hover {
+  text-decoration: black underline dashed;
+}
+
+/*Contenus*/
+.post {
+    border: 1px ridge seagreen;
+    border-radius: 9px;
+    padding: 5px;
+}
+
+.post {
+    margin-top:17px;
+}
+
+.post.first{
+  margin-top: 0px;
+}
+
+.post-title {
+    margin: 0 0 6px 0;
+}
+.post-title {
+    font-family: Arial, Helvetica, "Trebuchet MS", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, .post-title, .day-date {
+    color: #333333;
+}
+
+.post-content {
+    margin-top: 10px !important;
+}
+
+.post p, .content-info p {
+    padding: 3px 0px 5px 7px;
+}
+.post p {
+    text-align: justify;
+}
+
+.read-it {
+  text-align:right !important;
+  color: cornflowerblue;
+  margin-bottom: 0;
+  margin-right: 10px;
+  font-style: oblique;
+  font-size: medium;
+}
+
+.read-it:hover {
+  text-decoration: underline;  
+}
+
+.post-tags li {
+  list-style: none !important;
+  display:inline;
+}
+
+ul.post-tags a {
+  background: transparent url(/gam/themes/gam/img/tag.png) no-repeat 0 50%;
+  padding-left:17px;
+}
+
+.post-content iframe {
+  border:none;
+}
+
+/*Widgets*/
+#blognav {
+  display: grid;
+  grid-row-gap: 10px;
+}
+
+.widget ul, .widget form fieldset {
+    border: 1px ridge seagreen;
+    border-radius: 9px;
+    padding: 3px;
+}
+
+.widget h2 {
+  padding:0;
+  line-height: 0;
+  font-style:oblique;
+  font-size:larger;
+}
+
+.widget fieldset p {
+  display:grid;
+  grid-template-columns: auto 25px;
+  grid-gap: 3px;
+  margin:0;
+}
+
+.widget input {
+  border-radius: 7px;  
+  background-color: #ffb;
+  border:0.5px #aa7 inset;
+}
+
+#q {
+  font-style:oblique;
+}
+
+.widget input.submit {
+  border: 1px #aa7 outset;
+  padding: 5px;
+}
+
+.widget input.submit:hover{
+    cursor: pointer;
+}
+
+
+/*Mots clés*/
+
+#sidebar ul { margin: 0; padding: 10px; }
+
+.tags li {
+  display: inline;
+  font-size: x-small;
+}
+
+.tags p {
+  text-align:center;
+  font-size: small;
+}
+
+#sidebar .tags ul{
+	background-color: inherit;
+	opacity:0.9;
+}
+
+#sidebar .tags li:not(:last-child):after, .dc-tags ul.tags li:not(:last-child):after{
+	content: " \25AB  ";
+}
+
+.dc-tags ul.tags{
+	background-color: inherit;
+}
+
+.tag0 { 
+	font-size: 75%;
+	color:lightblue;
+ }
+.tag10 { 
+	font-size: 80%; 
+	color: lightcoral;
+}
+
+.tag20 { 
+	font-size: 85%; 
+	color: orchid;	
+}
+
+.tag30 { 
+	font-size: 90%; 
+	color: lightgreen;
+}
+.tag40 { 
+	font-size: 100%; 
+	color:lightsalmon;
+}
+.tag50 { 
+	font-size: 110%;  
+	color:lightslategrey;
+}
+.tag60 { 
+	font-size: 120%; 
+	color:lightsteelblue; 
+}
+.tag70 { 
+	font-size: 130%;  
+	color:lightpink;
+}
+.tag80 { 
+	font-size: 140%;  
+	color:lightseagreen;
+}
+.tag90 { 
+	font-size: 150%; 
+	color:lightskyblue; 
+}
+.tag100 {
+	font-size: 160%; 
+	color:cornflowerblue; 
+}
+
+/*Catégories*/
+#content li{
+    list-style-image: url('/gam/themes/gam/img/grain.png');
+    list-style-position: inside;
+}
+
+/*Animation*/
+.cat-11,.cat-11 a:link,.cat-11 a:visited {
+	color:#751761;
+}
+.li-11 {
+	background-image: url("img/icones/cat11.png");
+	background-repeat: no-repeat;
+	height: 40px;
+	vertical-align: middle;
+	text-indent: 54px;
+	padding-top: 9px;
+}
+
+/*Ecoconstruction*/
+.cat-12,.cat-12 a:link,.cat-12 a:visited {
+	color:#dd0127;
+}
+.li-12 {
+	background-image: url("img/icones/cat12.png");
+	background-repeat: no-repeat;
+	height: 40px;
+	vertical-align: middle;
+	text-indent: 54px;
+	padding-top: 9px;
+}
+
+/*Professionnels*/
+.cat-21,.cat-21 a:link,.cat-21 a:visited{
+	color:#fe9b00;
+}
+.li-21 {
+	background-image: url("img/icones/cat21.png");
+	background-repeat: no-repeat;
+	height: 40px;
+	vertical-align: middle;
+	text-indent: 54px;
+	padding-top: 9px;}
+
+
+/*Vente*/
+.cat-14,.cat-14 a:link,.cat-14 a:visited{
+	color:#42d698;
+}
+.li-14 {
+	background-image: url("img/icones/cat14.png");
+	background-repeat: no-repeat;
+	height: 40px;
+	vertical-align: middle;
+	text-indent: 54px;
+	padding-top: 9px;}
+
+/*Le Projet*/
+.cat-15,.cat-15 a:link,.cat-15 a:visited{
+	color:#2277e2;
+}
+.li-15 {
+	background-image: url("img/icones/cat15.png");
+	background-repeat: no-repeat;
+	height: 40px;
+	vertical-align: middle;
+	text-indent: 54px;
+	padding-top: 9px;
+}

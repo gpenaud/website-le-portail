@@ -1,0 +1,83 @@
+{{tpl:extends parent="__layout.html"}}
+<tpl:Block name="template">
+	<!-- eventHandler list -->
+</tpl:Block>
+
+<tpl:Block name="head-title">
+	<title>Au programme - <tpl:EventsIf has_category="1">{{tpl:CategoryTitle encode_html="1"}} - </tpl:EventsIf>{{tpl:BlogName encode_html="1"}}<tpl:PaginationIf start="0"> - {{tpl:lang page}} {{tpl:PaginationCurrent}}</tpl:PaginationIf></title>
+</tpl:Block>
+
+<tpl:Block name="html-head">
+	{{tpl:parent}}
+	<!-- default css for eventHandler -->
+    <link rel="stylesheet" type="text/css" href="{{tpl:BlogQmarkURL}}pf=eventHandler/css/default-eventhandler.css" media="screen" />
+
+    <script type="text/javascript" src="{{tpl:BlogQmarkURL}}pf=post.js"></script>
+    <script type="text/javascript">
+      //<![CDATA[
+  var post_remember_str = '{{tpl:lang Remember me on this blog}}';
+  //]]>
+    </script>
+ </tpl:Block>
+
+<tpl:Block name="html-head">
+	{{tpl:parent}}
+	<!-- default css for eventHandler -->
+    <link rel="stylesheet" type="text/css" href="{{tpl:BlogQmarkURL}}pf=eventHandler/css/default-eventhandler.css" media="screen" />
+</tpl:Block>
+
+<tpl:Block name="body-tag"><body class="dc-category events-category"></tpl:Block>
+
+<tpl:Block name="main-content">
+	    <div id="content-info">
+	      <h2>Au programme {{tpl:EhRepeatInterval }}</h2>
+
+	    <tpl:EventsEntries period="finished">
+	      <div id="p{{tpl:EntryID}}" class="post {{tpl:EntryIfOdd}} {{tpl:EntryIfFirst}}" lang="{{tpl:EntryLang}}" role="article">
+		  <tpl:EventsDateHeader startdt="1"><p class="day-date">{{tpl:EventsEntryDate startdt="1"}}</p></tpl:EventsDateHeader>
+
+		<h2 class="post-title"><a
+					  href="{{tpl:EntryURL}}">{{tpl:EntryTitle encode_html="1"}}</a></h2>
+
+		<p class="post-info">{{tpl:lang By}} {{tpl:EntryAuthorLink}}
+		  {{tpl:lang on}} {{tpl:EntryDate}}, {{tpl:EntryTime}}
+		  <tpl:EntryIf has_category="1">
+		    - <a href="{{tpl:EventsEntryCategoryURL}}">{{tpl:EntryCategory encode_html="1"}}</a>
+		  </tpl:EntryIf>
+		  - <a href="{{tpl:EntryURL}}">{{tpl:lang Permalink}}</a>
+		</p>
+
+		<ul class="event-info">
+			<tpl:EventIfIsRepeat>
+				Événement répétitif
+				<li class="event-date">
+		  			{{tpl:EhRepeatReadableFrequency}} {{tpl:lang of the month}}, {{tpl:lang from}} {{tpl:EventsEntryTime startdt="1"}} {{tpl:lang to (hour)}} {{tpl:EventsEntryTime enddt="1"}} {{tpl:lang for a period of}} {{tpl:EventsEntryDuration}}</li>
+			{{tpl:else}}
+		  		<li class="event-date">{{tpl:lang on}} {{tpl:EventsEntryDate startdt="1"}}, {{tpl:EventsEntryTime startdt="1"}} {{tpl:lang for a period of}} {{tpl:EventsEntryDuration}}</li>
+		  	</tpl:EventIfIsRepeat>
+		</ul>
+
+		<div class="post-content">
+		  <!-- # Entry with an excerpt -->
+		  <tpl:EntryIf extended="1">{{tpl:EntryExcerpt}}</tpl:EntryIf>
+		  <!-- # Entry without excerpt -->
+		  <tpl:EntryIf extended="0"><p>{{tpl:EntryContent encode_html="1" remove_html="1" cut_string="250"}}</p></tpl:EntryIf>
+
+		  <p class="read-it"><a href="{{tpl:EntryURL}}"
+					title="{{tpl:lang Continue reading}} {{tpl:EntryTitle encode_html="1"}}">{{tpl:lang Continue reading}}</a></p>
+		</div>
+
+	      </div>
+
+	      <tpl:EntriesFooter>
+		<tpl:EventsPagination>
+		  <p class="pagination"><tpl:PaginationIf end="0"><a href="{{tpl:PaginationURL offset="+1"}}" class="prev">&#171;
+			{{tpl:lang previous entries}}</a> - </tpl:PaginationIf>
+		    {{tpl:lang page}} {{tpl:PaginationCurrent}} {{tpl:lang of}} {{tpl:PaginationCounter}}
+		    <tpl:PaginationIf start="0"> - <a href="{{tpl:PaginationURL offset="-1"}}" class="next">{{tpl:lang next entries}}
+			&#187;</a></tpl:PaginationIf></p>
+		</tpl:EventsPagination>
+	      </tpl:EntriesFooter>
+	    </tpl:EventsEntries>
+	  </div>
+</tpl:Block>

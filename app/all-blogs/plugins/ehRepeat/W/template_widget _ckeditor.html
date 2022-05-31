@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="slavelist">
+            <span class="widgettitle">Liste d\'événements</span>
+            <h5>Titre :</h5><h4 class="eventstitle">{title}</h4>
+            <label>Texte si aucun événement:<h4 class="eventsnone" title="">{none}</h4></label>
+            <label>Afficher les titres des événements<input type="checkbox" name="usetitle" {usetitle}/></label>
+            <label>Evénements cliquables<input type="checkbox" name="setlink" {setlink}/></label>
+            <label>Mode: mélangé <input type="radio" value="mix" name="mode" checked="{modemix}"/> par événement
+                <input type="radio" value="evt" name="mode" checked="{modeevt}"/></label>
+            <label>Tous les événements<input type="radio" name="style" value="all" checked="{styleall}"/></label>
+            <label>Par titre<input type="radio" name="style" value="bytitle" checked="{stylebt}"/></label>
+            <div class="bytitle style{styleall}">
+                <label>Par titre<h4 class="eventsbytitle col2" title="titre à rechercher">{by_title}</h4></label>
+            </div>
+        </div>
+    </body>
+</html>

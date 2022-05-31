@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-19 23:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: _admin.php:21 index.php:53 index.php:59 _admin.php:18
+msgid "Repetitivevents"
+msgstr ""
+
+#: _admin.php:62
+msgid "Click button to edit"
+msgstr ""
+
+#: index.php:60
+msgid "Events"
+msgstr ""
+
+#: index.php:65
+msgid "Title"
+msgstr ""
+
+#: index.php:66
+msgid "Start date"
+msgstr ""
+
+#: index.php:67
+msgid "Endate"
+msgstr ""
+
+#: index.php:68
+msgid "Repetition pattern"
+msgstr ""
+
+#: index.php:91
+msgid "Selected entries action:"
+msgstr ""
+
+#: index.php:93
+msgid "Delete"
+msgstr ""
+
+#: _install.php:28
+#, php-format
+msgid ""
+"Eh Repeat requires eventHandler V%s minimum, V%s installed. Please update"
+msgstr ""
+
+#: _install.php:49
+msgid "Eh Repeat requires eventHandler"
+msgstr ""
+
+#: _install.php:54
+msgid "Months number for automatic events generation"
+msgstr ""
+
+#: _install.php:55
+msgid "Week starts on sunday"
+msgstr ""
+
+#: _install.php:56
+msgid "Replacevent endate by event duration"
+msgstr ""
+
+#: _install.php:57
+msgid "Minutes accuracy"
+msgstr ""
+
+#: _public.php:144
+msgid "%A %B, %e"
+msgstr ""
+
+#: _public.php:149
+msgid "Next events"
+msgstr ""
+
+#: _public.php:154
+msgid "No scheduled events"
+msgstr ""
+
+#: _public.php:183 _public.php:187
+msgid "Home"
+msgstr ""
+
+#: _services.php:25 _services.php:42 _services.php:88
+msgid "Frequency string missing"
+msgstr ""
+
+#: _services.php:44 _services.php:90
+msgid "Date is missing"
+msgstr ""
+
+#: _services.php:67
+msgid "No dates found for this request."
+msgstr ""
+
+#: inc/class.ehdate.php:118
+#, php-format
+msgid "Invalid type for %s, integer expected, %s given."
+msgstr ""
+
+#: inc/class.ehdate.php:168
+msgid "Something went wrong when shaking"
+msgstr ""
+
+#: inc/class.ehdate.php:276
+#, php-format
+msgid "Unsupported format %d encountered."
+msgstr ""
+
+#: inc/class.ehsimplefreq.php:49 tpl/eventsidebar.tpl:30
+msgid "Monday"
+msgstr ""
+
+#: inc/class.ehsimplefreq.php:49 tpl/eventsidebar.tpl:31
+msgid "Tuesday"
+msgstr ""
+
+#: inc/class.ehsimplefreq.php:49 tpl/eventsidebar.tpl:32
+msgid "Wednesday"
+msgstr ""
+
+#: inc/class.ehsimplefreq.php:49 tpl/eventsidebar.tpl:33
+msgid "Thursday"
+msgstr ""
+
+#: inc/class.ehsimplefreq.php:49 tpl/eventsidebar.tpl:34
+msgid "Friday"
+msgstr ""
+
+#: inc/class.ehsimplefreq.php:49 tpl/eventsidebar.tpl:35
+msgid "Saturday"
+msgstr ""
+
+#: inc/class.ehsimplefreq.php:49 tpl/eventsidebar.tpl:36
+msgid "Sunday"
+msgstr ""
+
+#: inc/class.ehsimplefreq.php:50 tpl/eventsidebar.tpl:22
+msgid "1st"
+msgstr ""
+
+#: inc/class.ehsimplefreq.php:50 tpl/eventsidebar.tpl:23
+msgid "2nd"
+msgstr ""
+
+#: inc/class.ehsimplefreq.php:50 tpl/eventsidebar.tpl:24
+msgid "3rd"
+msgstr ""
+
+#: inc/class.ehsimplefreq.php:50 tpl/eventsidebar.tpl:25
+msgid "4th"
+msgstr ""
+
+#: inc/class.ehsimplefreq.php:50 tpl/eventsidebar.tpl:26
+msgid "5th"
+msgstr ""
+
+#: inc/class.ehsimplefreq.php:118
+msgid " & "
+msgstr ""
+
+#: inc/class.ehsimplefreq.php:149
+msgid "Every day"
+msgstr ""
+
+#: inc/class.ehsimplefreq.php:151 inc/class.ehsimplefreq.php:153
+#: inc/class.ehsimplefreq.php:155
+msgid "Every"
+msgstr ""
+
+#: inc/class.ehsimplefreq.php:153
+msgid "week"
+msgstr ""
+
+#: _public.php:144
+msgid "%A %e %B (%H:%M)"
+msgstr ""
+
+#: tpl/eventsidebar.tpl:3
+msgid "Repeatable"
+msgstr ""
+
+#: tpl/eventsidebar.tpl:4
+msgid "Repeatable event"
+msgstr ""
+
+#: tpl/eventsidebar.tpl:9
+msgid "Edit repeat"
+msgstr ""
+
+#: tpl/eventsidebar.tpl:21 tpl/eventsidebar.tpl:29
+msgid "All"
+msgstr ""
+
+#: tpl/eventsidebar.tpl:39
+msgid "Ok"
+msgstr ""
+
+#: tpl/eventsidebar.tpl:40
+msgid "Reset"
+msgstr ""
+
+#: tpl/eventsidebar.tpl:41
+msgid "Use CTRL key to select several items in lists"
+msgstr ""

@@ -1,0 +1,60 @@
+{{tpl:extends parent="post.html"}}
+
+<tpl:Block name="head-linkrel">
+	<link rel="contents" href="{{tpl:BlogArchiveURL}}" title="{{tpl:lang Archives}}" />
+	<tpl:EntryIf pings_active="1"><link rel="pingback" href="{{tpl:BlogXMLRPCURL}}" /></tpl:EntryIf>
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="{{tpl:BlogFeedURL type="atom"}}" />
+</tpl:Block>
+
+<tpl:Block name="body-tag"><body class="dc-page"></tpl:Block>
+
+<tpl:Block name="main-content">
+	<div id="p{{tpl:EntryID}}" class="post" role="article">
+		<h2 class="post-title">{{tpl:EntryTitle encode_html="1"}}</h2>
+
+		<!-- # --BEHAVIOR-- publicEntryBeforeContent -->
+		{{tpl:SysBehavior behavior="publicEntryBeforeContent"}}
+
+		<tpl:EntryIf extended="1">
+			<div class="post-excerpt">{{tpl:EntryExcerpt}}</div>
+		</tpl:EntryIf>
+		<div class="post-content">{{tpl:EntryContent}}</div>
+
+		<!-- # --BEHAVIOR-- publicEntryAfterContent -->
+		{{tpl:SysBehavior behavior="publicEntryAfterContent"}}
+		<tpl:Block name="publicEntryAfterContent">
+			<!-- Ici viennent s'ajouter des éléments grâce à des templates dérivés -->
+		</tpl:Block>
+
+	</div>
+
+	<!-- # Attachments -->
+	<tpl:Attachments>
+		<tpl:AttachmentsHeader>
+			<div id="attachments">
+				<h3>{{tpl:lang Attachments}}</h3>
+				<ul>
+		</tpl:AttachmentsHeader>
+					<li class="{{tpl:AttachmentType}}">
+				<tpl:AttachmentIf is_audio="1">
+					{{tpl:include src="_audio_player.html"}}
+				</tpl:AttachmentIf>
+				<tpl:AttachmentIf is_video="1">
+					<tpl:AttachmentIf is_flv="0">
+						{{tpl:include src="_video_player.html"}}
+					{{tpl:else}}
+						{{tpl:include src="_flv_player.html"}}
+					</tpl:AttachmentIf>
+				</tpl:AttachmentIf>
+				<tpl:AttachmentIf is_audio="0" is_video="0">
+					<a href="{{tpl:AttachmentURL}}"
+						title="{{tpl:AttachmentFileName}} ({{tpl:AttachmentSize}})">{{tpl:AttachmentTitle}}</a>
+				</tpl:AttachmentIf>
+					</li>
+		<tpl:AttachmentsFooter>
+				</ul>
+			</div>
+		</tpl:AttachmentsFooter>
+	</tpl:Attachments>
+
+</tpl:Block>

@@ -1,0 +1,10 @@
+
+dotSlick makes image galleries easy
+
+* widget in post & page editor (you can extend to other post_types at your own risks)
+* drang 'n' drop gallery creation, insertion of full folders or single images
+* fully configurable galleries (autoplay, speed, arrows, dots & mousewheel navigation
+
+
+WARNING : weird results with shorten content in templates. no workaround at the moment,
+except not using {{tpl:EntryContent encode_html="1" remove_html="1" cut_string="300"}} in your templates.

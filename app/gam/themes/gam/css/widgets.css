@@ -1,0 +1,90 @@
+/*Widgets*/
+.widgets {
+  line-height: initial;
+}
+
+
+#blognav {
+  display: grid;
+  grid-row-gap: 10px;
+}
+
+.widget {
+    background-color: #ffbc;
+    border-radius: 10px;
+
+}
+
+.widget ul, .widget form fieldset, .widget .calendar-array {
+    border: 1px ridge seagreen;
+    border-radius: 9px;
+    padding: 3px;
+}
+
+.widget h2 {
+  padding:0;
+  line-height: 0;
+  font-style:oblique;
+  font-size:larger;
+  font-family:"Symbola";
+}
+
+.widget fieldset p {
+  display:grid;
+  grid-template-columns: auto 25px;
+  grid-gap: 3px;
+  margin:0;
+}
+
+.widget input {
+  border-radius: 7px;  
+  background-color: #ffb;
+  border:0.5px #aa7 inset;
+}
+
+#q {
+  font-style:oblique;
+}
+
+.widget input.submit {
+  border: 1px #aa7 outset;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.widget input.submit:hover{
+    cursor: pointer;
+}
+
+.widget:hover {
+    transition: transform 1s ease 1s;
+    transform: matrix(1.2,0,0,1.2,-30,10);
+}
+
+@media only screen and (max-width: 768px) {
+  #blognav {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #ff000014;
+    grid-row-gap: 2px;
+    grid-column-gap: 2px;
+  }
+
+  #search {
+    flex-basis:200px;
+    flex-shrink:0;
+  }
+  
+  .widget{
+    display:inline-block;
+    height:auto;
+    background-color:unset;
+  }
+  
+  .widget:hover {
+    transition:unset;
+    transform:unset;
+  }
+}

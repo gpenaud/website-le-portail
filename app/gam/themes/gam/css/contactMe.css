@@ -1,0 +1,57 @@
+/*Page formulaire de contact*/
+.contactme>fieldset {
+    border: 1px ridge seagreen;
+    border-radius: 9px;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    width: 1px;
+}
+
+.contactme>fieldset label {
+  width:100%;
+  display: block;
+  /*! margin: 0 auto; */
+  text-align: left;
+  text-indent: 7px;
+}
+
+.contactme>fieldset p {
+  width:100%;
+  display: block;
+  vertical-align: middle;
+  /*! align-content: center; */
+}
+
+.contactme>fieldset p>input,.contactme>fieldset p>textarea{
+  /*! margin-left: 17px; */  
+  background-color: #F001;
+  border-radius: 9px;
+  border-width: 1px;
+}
+
+.contactme>fieldset p>textarea{
+  padding:7px;  
+}
+
+.contactme>fieldset p>input.submit{
+  color:black;
+  text-transform: capitalize;
+  padding:3px 7px;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+.contactme>fieldset p>input.submit:hover{
+  background-color:#0001;
+  color:#777;
+}
+
+.dc-contactme #content-info h2{
+  color: #43A047;
+}
+
+.dc-contactme #content-info h2:before {
+  content:"\1F4E7\2005";
+  font-family:"Symbola";
+}

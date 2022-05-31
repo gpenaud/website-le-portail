@@ -1,0 +1,62 @@
+/* EventHandler */
+
+div .calendar-array {
+  font-size: x-small;
+  text-align: center;
+}
+
+div p {
+  font-size: small;
+  
+}
+
+.events-category #content-info>p {
+  display: none;
+}
+
+.events-category #content-info>h3 {
+  display: none;
+}
+
+#eventhandler-menu-period, #eventhandler-menu-sortorder{
+  display:none;
+}
+
+.eventhandler-calendar td.eventsday {
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+.eventhandler-calendar td, .eventhandler-calendar th {
+    border: none;
+    box-sizing: content-box;
+    padding-top: 1px;
+    padding: 0px;
+    padding-top: 2px;
+    width: 21px;
+}
+
+.eventhandler-calendar tr {
+    line-height: 18px;
+    vertical-align: middle;
+}
+
+.eventsday a {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.eventhandler-calendar table {
+  padding:0;
+  margin: 0 auto;
+}
+
+#eventsfeed {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .widget.eventhandler-calendar{
+    
+  }
+}

@@ -1,0 +1,21 @@
+msgid "No picture"
+msgstr "Aucune image"
+
+msgid "Does not exist in DC Media"
+msgstr "N'existe pas dans DC Media"
+
+msgid "Original"
+msgstr "Original"
+
+msgid "Choose a directory"
+msgstr "Choisissez un répertoire"
+
+msgid "Pictures"
+msgstr "Images"
+
+msgid "Thumbnails"
+msgstr "Miniatures"
+
+msgid "Update"
+msgstr "Mise à jour"
+

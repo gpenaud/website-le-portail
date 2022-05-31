@@ -1,0 +1,136 @@
+# dotSlick localization.
+# Copyright (C) 2019
+# This file is distributed under the same license as the PACKAGE dotslick.
+# FIRST AUTHOR <dev@taktile.fr>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 20190629\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-26 00:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Bruno Avet <dev@taktile.fr>\n"
+"Language-Team: Bruno Avet <dev@taktile.fr>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_define.php:17
+msgid   "Insert slick galleries in your posts"
+msgstr  "Insérez des galeries fluides dans vos posts"
+
+#: ../../_services.php:24 ../../_services.php:53
+msgid   "Description string missing"
+msgstr  "Chaîne de description manquante"
+
+#: ../../inc/class.dsmedia.php:168
+msgid   "Parent folder"
+msgstr  "Dossier parent"
+
+#: ../../popup.php:80 ../../popup.php:81
+msgid   "Insert dotSlick gallery"
+msgstr  "Insère une galerie dotSlick"
+
+#: ../../popup.php:92 ../../popup.php:93
+msgid   "Number of images in folder & subfolders"
+msgstr  "Nombre d'images dans le dossier et ses sous-dossiers"
+
+#: ../../popup.php:93 ../../popup.php:94
+msgid   "Number of images in folder"
+msgstr  "Nombre d'images dans le dossier"
+
+#: ../../popup.php:95 ../../popup.php:96
+#, php-format
+msgid   "contains %d pictures"
+msgstr  "contient %d images"
+
+#: ../../popup.php:96 ../../popup.php:97
+msgid   "contains 1 picture"
+msgstr  "contient 1 image"
+
+#: ../../popup.php:100 ../../popup.php:101
+msgid   "Media Library"
+msgstr  "Médiathèque"
+
+#: ../../popup.php:102 ../../popup.php:103
+msgid   "Media Gallery"
+msgstr  "Galerie d'images"
+
+#: ../../popup.php:104 ../../popup.php:105
+msgid   "Drag images and image folders<br/>You may reorder them"
+msgstr  "Glissez des images et des dossiers d'images<br/>Vous pourrez les "
+        "réordonner"
+
+#: ../../popup.php:112
+msgid   "Autoplay settings"
+msgstr  "Réglages du diaporama"
+
+#: ../../popup.php:113
+msgid   "Autoplay"
+msgstr  "Lecture automatique"
+
+#: ../../popup.php:115 ../../popup.php:124 ../../popup.php:130
+#: ../../popup.php:140 ../../popup.php:141 ../../popup.php:146
+#: ../../popup.php:147 ../../popup.php:152 ../../popup.php:153
+msgid   "No"
+msgstr  "Non"
+
+#: ../../popup.php:116 ../../popup.php:125 ../../popup.php:131
+#: ../../popup.php:141 ../../popup.php:142 ../../popup.php:147
+#: ../../popup.php:148 ../../popup.php:153 ../../popup.php:154
+msgid   "Yes"
+msgstr  "Oui"
+
+#: ../../popup.php:119
+msgid   "Autoplay speed (in ms)"
+msgstr  "Vitesse du diaporama (en ms)"
+
+#: ../../popup.php:120
+msgid   "Set the slideshow speed in milliseconds"
+msgstr  "Réglez la vitesse du diaporama en millisecondes"
+
+#: ../../popup.php:122
+msgid   "Infinite loop"
+msgstr  "Boucle infinie"
+
+#: ../../popup.php:128
+msgid   "Pause when over"
+msgstr  "Pause au survol"
+
+#: ../../popup.php:138 ../../popup.php:139
+msgid   "Link image to original"
+msgstr  "Rendre les images cliquables"
+
+#: ../../popup.php:138
+msgid   "Other settings"
+msgstr  "Autres réglages"
+
+#: ../../popup.php:144 ../../popup.php:145
+msgid   "Display dots"
+msgstr  "Afficher les points"
+
+#: ../../popup.php:150 ../../popup.php:151
+msgid   "Display arrows"
+msgstr  "Afficher les flèches"
+
+#: ../../popup.php:156 ../../popup.php:157
+msgid   "Slides height (in px)"
+msgstr  "Hauteur des images (en px)"
+
+#: ../../popup.php:157 ../../popup.php:158
+msgid   "Set slides height in pixels"
+msgstr  "Réglez la hauteur des images en pixels"
+
+#: ../../popup.php:164 ../../popup.php:165
+msgid   "Insert & close"
+msgstr  "Insérer et fermer"
+
+#:
+msgid   "Update & close"
+msgstr  "Mettre à jour et fermer"
+
+#: ../../popup.php:165 ../../popup.php:166
+msgid   "Reset all values"
+msgstr  "Réinitialiser toutes les valeurs"
