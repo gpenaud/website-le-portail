@@ -19,6 +19,6 @@ lftp -c " \
       --parallel=3 \
       -x '^tmp\/cache\/' \
     /v3/ \
-    /home/gpenaud/work/ecolieu/website-le-portail/backups/sources; \
+    /home/gpenaud/work/ecolieu/website-le-portail/app/; \
   ; \
   close -a;"

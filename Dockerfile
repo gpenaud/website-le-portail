@@ -29,9 +29,10 @@ RUN \
   ln -sf /proc/self/fd/1 /var/log/apache2/error.log
 
 RUN mv "$PHP_INI_DIR/php.ini-development" "$PHP_INI_DIR/php.ini"
+RUN rm -rf /var/www/html/cache/*
 
 RUN \
-  a2enmod --force rewrite && \
-  a2enmod --force ssl
+  a2enmod ssl && \
+  a2enmod rewrite
 
 RUN service apache2 restart
