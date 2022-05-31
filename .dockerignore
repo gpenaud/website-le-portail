@@ -1,0 +1,9 @@
+Dockerfile
+docker-compose.yml
+.git
+backups
+scripts
+**/*.jpg
+**/*.JPG
+**/*.jpeg
+**/*.JPEG

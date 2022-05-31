@@ -1,0 +1,38 @@
+version: "3.2"
+
+networks:
+  leportail:
+
+volumes:
+  database:
+
+services:
+  website:
+    build: .
+    volumes:
+      - type: bind
+        source: ./services/website/config.php
+        target: /var/www/html/dotclear/inc/config.php
+    ports:
+      - 80:80
+      - 443:443
+    depends_on:
+      - mysql
+    networks:
+      - leportail
+
+  mysql:
+    image: mysql:5.6.50
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: leportaivfgam
+      MYSQL_USER: docker
+      MYSQL_PASSWORD: docker
+    volumes:
+      - database:/var/lib/mysql
+      - ./backups/mysql266.leportaivfgam.2022-05-10-16h41:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - 3306:3306
+    networks:
+      - leportail
