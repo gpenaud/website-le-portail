@@ -1,3 +1,21 @@
+## Build webapp image
+build:
+	@[ "${CURRENT_TAG}" ] || echo "no tag found at commit ${COMMIT}"
+	@[ "${CURRENT_TAG}" ] && docker build --tag le-portail-website:${CURRENT_TAG} .
+
+## Tag webapp image
+tag:
+	@[ "${CURRENT_TAG}" ] || echo "no tag found at commit ${COMMIT}"
+	@[ "${CURRENT_TAG}" ] && docker tag le-portail-website:${CURRENT_TAG} rg.fr-par.scw.cloud/le-portail/website:${CURRENT_TAG}
+
+## Push webapp image to scaleway repository
+push:
+	@[ "${CURRENT_TAG}" ] || echo "no tag found at commit ${COMMIT}"
+	@[ "${CURRENT_TAG}" ] && docker push rg.fr-par.scw.cloud/le-portail/website:${CURRENT_TAG}
+
+## Build, Tag, then Push image at ${tag} version
+publish: build tag push
+
 ## Start, then log website stack locally
 up:
 	docker-compose up --detach
