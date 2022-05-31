@@ -1,7 +1,7 @@
 ## Build webapp image
 build:
 	@[ "${CURRENT_TAG}" ] || echo "no tag found at commit ${COMMIT}"
-	@[ "${CURRENT_TAG}" ] && docker build --tag le-portail-website:${CURRENT_TAG} .
+	@[ "${CURRENT_TAG}" ] && docker build --no-cache --tag le-portail-website:${CURRENT_TAG} .
 
 ## Tag webapp image
 tag:
@@ -55,6 +55,7 @@ ONESHELL:
 ## permanent variables
 PROJECT			?= github.com/gpenaud/website-le-portail
 RELEASE			?= $(shell git describe --tags --abbrev=0)
+CURRENT_TAG ?= $(shell git describe --exact-match --tags 2> /dev/null)
 COMMIT			?= $(shell git rev-parse --short HEAD)
 BUILD_TIME  ?= $(shell date -u '+%Y-%m-%d_%H:%M:%S')
 
