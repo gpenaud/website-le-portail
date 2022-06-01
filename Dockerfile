@@ -13,25 +13,18 @@ RUN \
 
 COPY --chown=www-data:www-data ./app/ /var/www/html/
 
-# apache2 certificates
-COPY ./services/apache2/certificates /etc/apache2/certificates
-
-# apache2 vhosts
-COPY ./services/apache2/vhost-website.conf /etc/apache2/sites-available/www.leportail.localhost.conf
-COPY ./services/apache2/vhost-website.conf /etc/apache2/sites-enabled/www.leportail.localhost.conf
-COPY ./services/apache2/vhost-admin.conf /etc/apache2/sites-available/admin.leportail.localhost.conf
-COPY ./services/apache2/vhost-admin.conf /etc/apache2/sites-enabled/admin.leportail.localhost.conf
-
-# configurations
-COPY --chown=www-data:www-data ./services/website/config.php /var/www/html/dotclear/inc/config.php
-
 RUN \
   # prepare apache2 logs
   ln -sf /proc/self/fd/1 /var/log/apache2/access.log && \
   ln -sf /proc/self/fd/1 /var/log/apache2/error.log
 
 RUN mv "$PHP_INI_DIR/php.ini-development" "$PHP_INI_DIR/php.ini"
-RUN rm -rf /var/www/html/cache/*
+
+# cean useless stuffs
+RUN rm -rf \
+  /var/www/html/cache/* \
+  /etc/apache2/sites-available/* \
+  /etc/apache2/sites-enabled/*
 
 RUN \
   a2enmod ssl && \

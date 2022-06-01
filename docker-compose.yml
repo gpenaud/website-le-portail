@@ -10,9 +10,15 @@ services:
   website:
     build: .
     volumes:
-      - type: bind
-        source: ./services/website/config.php
-        target: /var/www/html/dotclear/inc/config.php
+      # apache2 vhosts
+      - ./services/apache2/vhost-website.conf:/etc/apache2/sites-available/www.leportail.localhost.conf
+      - ./services/apache2/vhost-website.conf:/etc/apache2/sites-enabled/www.leportail.localhost.conf
+      - ./services/apache2/vhost-admin.conf:/etc/apache2/sites-available/admin.leportail.localhost.conf
+      - ./services/apache2/vhost-admin.conf:/etc/apache2/sites-enabled/admin.leportail.localhost.conf
+      # apache2 certificates
+      - ./services/apache2/certificates:/etc/apache2/certificates
+      # dotclear configuration
+      - ./services/website/config.php:/var/www/html/dotclear/inc/config.php
     ports:
       - 80:80
       - 443:443
