@@ -46,8 +46,10 @@ certificates-install-mkcert:
 
 ## Generate self-signed certificates
 certificates-generate:
-	mkcert -cert-file services/apache2/certificates/cert.pem -key-file services/apache2/certificates/key.pem www.leportail.localhost
-	chmod 0644 services/apache2/certificates/key.pem
+	mkcert -cert-file services/apache2/certificates/website-cert.pem -key-file services/apache2/certificates/website-key.pem www.leportail.localhost
+	chmod 0644 services/apache2/certificates/website-key.pem
+	mkcert -cert-file services/apache2/certificates/admin-cert.pem -key-file services/apache2/certificates/admin-key.pem admin.leportail.localhost
+	chmod 0644 services/apache2/certificates/admin-key.pem
 
 SHELL := /bin/bash
 ONESHELL:

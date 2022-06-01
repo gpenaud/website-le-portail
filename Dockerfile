@@ -17,8 +17,10 @@ COPY --chown=www-data:www-data ./app/ /var/www/html/
 COPY ./services/apache2/certificates /etc/apache2/certificates
 
 # apache2 vhosts
-COPY ./services/apache2/vhost.conf /etc/apache2/sites-available/www.leportail.localhost.conf
-COPY ./services/apache2/vhost.conf /etc/apache2/sites-enabled/www.leportail.localhost.conf
+COPY ./services/apache2/vhost-website.conf /etc/apache2/sites-available/www.leportail.localhost.conf
+COPY ./services/apache2/vhost-website.conf /etc/apache2/sites-enabled/www.leportail.localhost.conf
+COPY ./services/apache2/vhost-admin.conf /etc/apache2/sites-available/admin.leportail.localhost.conf
+COPY ./services/apache2/vhost-admin.conf /etc/apache2/sites-enabled/admin.leportail.localhost.conf
 
 # configurations
 COPY --chown=www-data:www-data ./services/website/config.php /var/www/html/dotclear/inc/config.php
