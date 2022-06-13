@@ -55,6 +55,3 @@ define('DC_CRYPT_ALGO', 'sha512');
 
 // For cryptography
 define('DC_VENDOR_NAME', "website-leportail");
-
-// force admin context
-define('DC_CONTEXT_ADMIN', true);
